@@ -1,0 +1,11 @@
+MSc_Thesis\documentation\deliverables\poster\poster_data
+.ipynb_checkpoints
+*.off
+*.poly
+*.ply
+*.pptx
+*.docx
+*.tif
+*.stl
+*.o
+*.3dm
