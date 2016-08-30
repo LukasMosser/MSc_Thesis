@@ -1,0 +1,10 @@
+ObjectType = Image
+NDims = 3
+ElementType = MET_UCHAR
+DimSize = 100 100 100
+ElementSpacing = 2.0 2.0 2.0
+Offset = 0 0 0
+
+ElementDataFile = ../../beadpack.raw
+
+pore   0   0

@@ -1,0 +1,1090 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.3.0-f5222ca19ce6
+Exec   : redistributePar -parallel -overwrite
+Date   : Aug 27 2016
+Time   : 16:31:25
+Host   : "ese-tesla3"
+PID    : 9334
+Case   : /data2/Lukas/images/beadpack_small/beadpack/beadpack-1-X
+nProcs : 32
+Slaves : 
+31
+(
+"ese-tesla3.9335"
+"ese-tesla3.9336"
+"ese-tesla3.9337"
+"ese-tesla3.9338"
+"ese-tesla3.9339"
+"ese-tesla3.9340"
+"ese-tesla3.9341"
+"ese-tesla3.9342"
+"ese-tesla3.9343"
+"ese-tesla3.9344"
+"ese-tesla3.9345"
+"ese-tesla3.9346"
+"ese-tesla3.9347"
+"ese-tesla3.9348"
+"ese-tesla3.9349"
+"ese-tesla3.9350"
+"ese-tesla3.9351"
+"ese-tesla3.9352"
+"ese-tesla3.9353"
+"ese-tesla3.9354"
+"ese-tesla3.9355"
+"ese-tesla3.9356"
+"ese-tesla3.9357"
+"ese-tesla3.9358"
+"ese-tesla3.9359"
+"ese-tesla3.9360"
+"ese-tesla3.9361"
+"ese-tesla3.9362"
+"ese-tesla3.9363"
+"ese-tesla3.9364"
+"ese-tesla3.9365"
+)
+
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+--> FOAM Warning : 
+    From function redistributePar
+    in file redistributePar.C at line 441
+    Detected floating point exception trapping (FOAM_SIGFPE). This might give
+    problems when mapping fields. Switch it off in case of problems.
+Create time
+
+Using mesh subdirectory "polyMesh"
+
+Found points in "/data2/Lukas/images/beadpack_small/beadpack/beadpack-1-X/processor0/constant/polyMesh"
+
+Per processor mesh availability : 32{1}
+    Boundary definition OK.
+Before distribution:
+
+Processor 0
+    Number of cells = 16122
+    Number of faces shared with processor 1 = 177
+    Number of faces shared with processor 4 = 563
+    Number of faces shared with processor 16 = 205
+    Number of processor patches = 3
+    Number of processor faces = 945
+    Number of boundary faces = 6620
+
+Processor 1
+    Number of cells = 3269
+    Number of faces shared with processor 0 = 177
+    Number of faces shared with processor 2 = 276
+    Number of faces shared with processor 5 = 138
+    Number of processor patches = 3
+    Number of processor faces = 591
+    Number of boundary faces = 2912
+
+Processor 2
+    Number of cells = 14256
+    Number of faces shared with processor 1 = 276
+    Number of faces shared with processor 3 = 233
+    Number of faces shared with processor 6 = 320
+    Number of faces shared with processor 18 = 306
+    Number of processor patches = 4
+    Number of processor faces = 1135
+    Number of boundary faces = 6372
+
+Processor 3
+    Number of cells = 4887
+    Number of faces shared with processor 2 = 233
+    Number of faces shared with processor 7 = 371
+    Number of faces shared with processor 19 = 32
+    Number of processor patches = 3
+    Number of processor faces = 636
+    Number of boundary faces = 3550
+
+Processor 4
+    Number of cells = 9810
+    Number of faces shared with processor 5 = 231
+    Number of faces shared with processor 0 = 563
+    Number of faces shared with processor 8 = 157
+    Number of faces shared with processor 20 = 113
+    Number of processor patches = 4
+    Number of processor faces = 1064
+    Number of boundary faces = 5898
+
+Processor 5
+    Number of cells = 8915
+    Number of faces shared with processor 4 = 231
+    Number of faces shared with processor 6 = 314
+    Number of faces shared with processor 1 = 138
+    Number of faces shared with processor 9 = 402
+    Number of faces shared with processor 21 = 132
+    Number of processor patches = 5
+    Number of processor faces = 1217
+    Number of boundary faces = 5870
+
+Processor 6
+    Number of cells = 5034
+    Number of faces shared with processor 5 = 314
+    Number of faces shared with processor 7 = 125
+    Number of faces shared with processor 2 = 320
+    Number of faces shared with processor 10 = 198
+    Number of faces shared with processor 22 = 1
+    Number of processor patches = 5
+    Number of processor faces = 958
+    Number of boundary faces = 3918
+
+Processor 7
+    Number of cells = 9781
+    Number of faces shared with processor 6 = 125
+    Number of faces shared with processor 3 = 371
+    Number of faces shared with processor 11 = 240
+    Number of faces shared with processor 23 = 184
+    Number of processor patches = 4
+    Number of processor faces = 920
+    Number of boundary faces = 6266
+
+Processor 8
+    Number of cells = 7012
+    Number of faces shared with processor 9 = 77
+    Number of faces shared with processor 4 = 157
+    Number of faces shared with processor 12 = 389
+    Number of faces shared with processor 24 = 53
+    Number of processor patches = 4
+    Number of processor faces = 676
+    Number of boundary faces = 4262
+
+Processor 9
+    Number of cells = 9413
+    Number of faces shared with processor 8 = 77
+    Number of faces shared with processor 10 = 663
+    Number of faces shared with processor 5 = 402
+    Number of faces shared with processor 13 = 355
+    Number of faces shared with processor 25 = 229
+    Number of processor patches = 5
+    Number of processor faces = 1726
+    Number of boundary faces = 5836
+
+Processor 10
+    Number of cells = 8707
+    Number of faces shared with processor 9 = 663
+    Number of faces shared with processor 11 = 393
+    Number of faces shared with processor 6 = 198
+    Number of faces shared with processor 14 = 263
+    Number of faces shared with processor 26 = 221
+    Number of processor patches = 5
+    Number of processor faces = 1738
+    Number of boundary faces = 5980
+
+Processor 11
+    Number of cells = 20194
+    Number of faces shared with processor 10 = 393
+    Number of faces shared with processor 7 = 240
+    Number of faces shared with processor 15 = 998
+    Number of faces shared with processor 27 = 283
+    Number of processor patches = 4
+    Number of processor faces = 1914
+    Number of boundary faces = 6488
+
+Processor 12
+    Number of cells = 8739
+    Number of faces shared with processor 13 = 380
+    Number of faces shared with processor 8 = 389
+    Number of faces shared with processor 28 = 459
+    Number of processor patches = 3
+    Number of processor faces = 1228
+    Number of boundary faces = 4936
+
+Processor 13
+    Number of cells = 10047
+    Number of faces shared with processor 12 = 380
+    Number of faces shared with processor 14 = 167
+    Number of faces shared with processor 9 = 355
+    Number of faces shared with processor 29 = 265
+    Number of processor patches = 4
+    Number of processor faces = 1167
+    Number of boundary faces = 6054
+
+Processor 14
+    Number of cells = 3677
+    Number of faces shared with processor 13 = 167
+    Number of faces shared with processor 15 = 188
+    Number of faces shared with processor 10 = 263
+    Number of faces shared with processor 30 = 204
+    Number of processor patches = 4
+    Number of processor faces = 822
+    Number of boundary faces = 3124
+
+Processor 15
+    Number of cells = 16012
+    Number of faces shared with processor 14 = 188
+    Number of faces shared with processor 11 = 998
+    Number of faces shared with processor 31 = 19
+    Number of processor patches = 3
+    Number of processor faces = 1205
+    Number of boundary faces = 6312
+
+Processor 16
+    Number of cells = 9940
+    Number of faces shared with processor 17 = 258
+    Number of faces shared with processor 20 = 150
+    Number of faces shared with processor 0 = 205
+    Number of processor patches = 3
+    Number of processor faces = 613
+    Number of boundary faces = 5862
+
+Processor 17
+    Number of cells = 5455
+    Number of faces shared with processor 16 = 258
+    Number of faces shared with processor 18 = 229
+    Number of faces shared with processor 21 = 379
+    Number of processor patches = 3
+    Number of processor faces = 866
+    Number of boundary faces = 3528
+
+Processor 18
+    Number of cells = 16394
+    Number of faces shared with processor 17 = 229
+    Number of faces shared with processor 19 = 448
+    Number of faces shared with processor 22 = 998
+    Number of faces shared with processor 2 = 306
+    Number of processor patches = 4
+    Number of processor faces = 1981
+    Number of boundary faces = 6562
+
+Processor 19
+    Number of cells = 4297
+    Number of faces shared with processor 18 = 448
+    Number of faces shared with processor 23 = 482
+    Number of faces shared with processor 3 = 32
+    Number of processor patches = 3
+    Number of processor faces = 962
+    Number of boundary faces = 3556
+
+Processor 20
+    Number of cells = 11234
+    Number of faces shared with processor 21 = 351
+    Number of faces shared with processor 16 = 150
+    Number of faces shared with processor 24 = 667
+    Number of faces shared with processor 4 = 113
+    Number of processor patches = 4
+    Number of processor faces = 1281
+    Number of boundary faces = 5038
+
+Processor 21
+    Number of cells = 11373
+    Number of faces shared with processor 20 = 351
+    Number of faces shared with processor 22 = 506
+    Number of faces shared with processor 17 = 379
+    Number of faces shared with processor 25 = 170
+    Number of faces shared with processor 5 = 132
+    Number of processor patches = 5
+    Number of processor faces = 1538
+    Number of boundary faces = 6224
+
+Processor 22
+    Number of cells = 18740
+    Number of faces shared with processor 21 = 506
+    Number of faces shared with processor 23 = 902
+    Number of faces shared with processor 18 = 998
+    Number of faces shared with processor 26 = 329
+    Number of faces shared with processor 6 = 1
+    Number of processor patches = 5
+    Number of processor faces = 2736
+    Number of boundary faces = 6012
+
+Processor 23
+    Number of cells = 19487
+    Number of faces shared with processor 22 = 902
+    Number of faces shared with processor 19 = 482
+    Number of faces shared with processor 27 = 555
+    Number of faces shared with processor 7 = 184
+    Number of processor patches = 4
+    Number of processor faces = 2123
+    Number of boundary faces = 6712
+
+Processor 24
+    Number of cells = 10441
+    Number of faces shared with processor 25 = 334
+    Number of faces shared with processor 20 = 667
+    Number of faces shared with processor 28 = 339
+    Number of faces shared with processor 8 = 53
+    Number of processor patches = 4
+    Number of processor faces = 1393
+    Number of boundary faces = 7092
+
+Processor 25
+    Number of cells = 4680
+    Number of faces shared with processor 24 = 334
+    Number of faces shared with processor 26 = 193
+    Number of faces shared with processor 21 = 170
+    Number of faces shared with processor 29 = 418
+    Number of faces shared with processor 9 = 229
+    Number of processor patches = 5
+    Number of processor faces = 1344
+    Number of boundary faces = 3600
+
+Processor 26
+    Number of cells = 9451
+    Number of faces shared with processor 25 = 193
+    Number of faces shared with processor 27 = 642
+    Number of faces shared with processor 22 = 329
+    Number of faces shared with processor 30 = 335
+    Number of faces shared with processor 10 = 221
+    Number of processor patches = 5
+    Number of processor faces = 1720
+    Number of boundary faces = 5864
+
+Processor 27
+    Number of cells = 11157
+    Number of faces shared with processor 26 = 642
+    Number of faces shared with processor 23 = 555
+    Number of faces shared with processor 31 = 200
+    Number of faces shared with processor 11 = 283
+    Number of processor patches = 4
+    Number of processor faces = 1680
+    Number of boundary faces = 6356
+
+Processor 28
+    Number of cells = 13384
+    Number of faces shared with processor 29 = 874
+    Number of faces shared with processor 24 = 339
+    Number of faces shared with processor 12 = 459
+    Number of processor patches = 3
+    Number of processor faces = 1672
+    Number of boundary faces = 6956
+
+Processor 29
+    Number of cells = 13284
+    Number of faces shared with processor 28 = 874
+    Number of faces shared with processor 30 = 528
+    Number of faces shared with processor 25 = 418
+    Number of faces shared with processor 13 = 265
+    Number of processor patches = 4
+    Number of processor faces = 2085
+    Number of boundary faces = 6178
+
+Processor 30
+    Number of cells = 10312
+    Number of faces shared with processor 29 = 528
+    Number of faces shared with processor 31 = 168
+    Number of faces shared with processor 26 = 335
+    Number of faces shared with processor 14 = 204
+    Number of processor patches = 4
+    Number of processor faces = 1235
+    Number of boundary faces = 5916
+
+Processor 31
+    Number of cells = 4866
+    Number of faces shared with processor 30 = 168
+    Number of faces shared with processor 27 = 200
+    Number of faces shared with processor 15 = 19
+    Number of processor patches = 3
+    Number of processor faces = 387
+    Number of boundary faces = 3676
+
+Number of processor faces = 20779
+Max number of cells = 20194 (95.6013% above average 10324.1)
+Max number of processor patches = 5 (26.9841% above average 3.9375)
+Max number of faces between processors = 2736 (110.674% above average 1298.69)
+
+Selecting decompositionMethod ptscotch
+Merge tolerance : 1e-06
+Write tolerance : 1e-06
+Overall meshes bounding box : (0 0 0) (0.0002 0.0002 0.0002)
+Relative tolerance          : 1e-06
+Absolute matching distance  : 3.4641e-10
+
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field subsetU patch Front patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field subsetU patch Front patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field subsetU patch Front patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field subsetU patch Front patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field p patch Left patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field U patch Grainwalls patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field U patch Front patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field p patch Left patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field U patch Grainwalls patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field U patch Top patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field U patch Front patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field p patch Left patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field U patch Grainwalls patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field U patch Front patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field p patch Left patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field U patch Grainwalls patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field U patch Top patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+--> FOAM Warning : 
+    From function fixedValueFvPatchField<Type>::fixedValueFvPatchField
+(
+    const fixedValueFvPatchField<Type>&,
+    const fvPatch&,
+    const DimensionedField<Type, volMesh>&,
+    const fvPatchFieldMapper&
+)
+
+    in file fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C at line 80
+    On field U patch Front patchField fixedValue : mapper does not map all values.
+    To avoid this warning fully specify the mapping in derived patch fields.
+After distribution:
+
+Processor 0
+    Number of cells = 10451
+    Number of faces shared with processor 5 = 57
+    Number of faces shared with processor 9 = 24
+    Number of faces shared with processor 1 = 509
+    Number of faces shared with processor 6 = 7
+    Number of faces shared with processor 7 = 67
+    Number of processor patches = 5
+    Number of processor faces = 664
+    Number of boundary faces = 4822
+
+Processor 1
+    Number of cells = 10370
+    Number of faces shared with processor 11 = 1
+    Number of faces shared with processor 5 = 115
+    Number of faces shared with processor 0 = 509
+    Number of faces shared with processor 4 = 9
+    Number of faces shared with processor 2 = 542
+    Number of faces shared with processor 9 = 145
+    Number of faces shared with processor 6 = 252
+    Number of processor patches = 7
+    Number of processor faces = 1573
+    Number of boundary faces = 5670
+
+Processor 2
+    Number of cells = 10837
+    Number of faces shared with processor 3 = 791
+    Number of faces shared with processor 1 = 542
+    Number of faces shared with processor 23 = 24
+    Number of faces shared with processor 9 = 4
+    Number of faces shared with processor 6 = 286
+    Number of processor patches = 5
+    Number of processor faces = 1647
+    Number of boundary faces = 5302
+
+Processor 3
+    Number of cells = 9985
+    Number of faces shared with processor 12 = 138
+    Number of faces shared with processor 11 = 120
+    Number of faces shared with processor 2 = 791
+    Number of faces shared with processor 22 = 169
+    Number of faces shared with processor 9 = 6
+    Number of faces shared with processor 27 = 211
+    Number of faces shared with processor 18 = 1
+    Number of faces shared with processor 4 = 6
+    Number of faces shared with processor 6 = 32
+    Number of processor patches = 9
+    Number of processor faces = 1474
+    Number of boundary faces = 5012
+
+Processor 4
+    Number of cells = 9963
+    Number of faces shared with processor 5 = 56
+    Number of faces shared with processor 1 = 9
+    Number of faces shared with processor 3 = 6
+    Number of faces shared with processor 27 = 247
+    Number of faces shared with processor 26 = 1
+    Number of faces shared with processor 7 = 5
+    Number of faces shared with processor 6 = 257
+    Number of processor patches = 7
+    Number of processor faces = 581
+    Number of boundary faces = 6720
+
+Processor 5
+    Number of cells = 9916
+    Number of faces shared with processor 13 = 136
+    Number of faces shared with processor 15 = 5
+    Number of faces shared with processor 11 = 219
+    Number of faces shared with processor 0 = 57
+    Number of faces shared with processor 1 = 115
+    Number of faces shared with processor 4 = 56
+    Number of processor patches = 6
+    Number of processor faces = 588
+    Number of boundary faces = 6066
+
+Processor 6
+    Number of cells = 10631
+    Number of faces shared with processor 1 = 252
+    Number of faces shared with processor 7 = 556
+    Number of faces shared with processor 0 = 7
+    Number of faces shared with processor 2 = 286
+    Number of faces shared with processor 3 = 32
+    Number of faces shared with processor 4 = 257
+    Number of processor patches = 6
+    Number of processor faces = 1390
+    Number of boundary faces = 5432
+
+Processor 7
+    Number of cells = 10726
+    Number of faces shared with processor 6 = 556
+    Number of faces shared with processor 10 = 167
+    Number of faces shared with processor 0 = 67
+    Number of faces shared with processor 4 = 5
+    Number of processor patches = 4
+    Number of processor faces = 795
+    Number of boundary faces = 5386
+
+Processor 8
+    Number of cells = 9810
+    Number of faces shared with processor 15 = 138
+    Number of faces shared with processor 13 = 133
+    Number of faces shared with processor 29 = 187
+    Number of faces shared with processor 9 = 796
+    Number of faces shared with processor 12 = 164
+    Number of faces shared with processor 30 = 7
+    Number of processor patches = 6
+    Number of processor faces = 1425
+    Number of boundary faces = 5082
+
+Processor 9
+    Number of cells = 9811
+    Number of faces shared with processor 0 = 24
+    Number of faces shared with processor 8 = 796
+    Number of faces shared with processor 10 = 183
+    Number of faces shared with processor 1 = 145
+    Number of faces shared with processor 12 = 9
+    Number of faces shared with processor 3 = 6
+    Number of faces shared with processor 2 = 4
+    Number of processor patches = 7
+    Number of processor faces = 1167
+    Number of boundary faces = 5958
+
+Processor 10
+    Number of cells = 10611
+    Number of faces shared with processor 11 = 575
+    Number of faces shared with processor 20 = 2
+    Number of faces shared with processor 13 = 98
+    Number of faces shared with processor 12 = 146
+    Number of faces shared with processor 15 = 4
+    Number of faces shared with processor 18 = 115
+    Number of faces shared with processor 9 = 183
+    Number of faces shared with processor 29 = 8
+    Number of faces shared with processor 7 = 167
+    Number of processor patches = 9
+    Number of processor faces = 1298
+    Number of boundary faces = 6790
+
+Processor 11
+    Number of cells = 10800
+    Number of faces shared with processor 10 = 575
+    Number of faces shared with processor 5 = 219
+    Number of faces shared with processor 13 = 14
+    Number of faces shared with processor 1 = 1
+    Number of faces shared with processor 3 = 120
+    Number of faces shared with processor 21 = 1
+    Number of faces shared with processor 20 = 100
+    Number of processor patches = 7
+    Number of processor faces = 1030
+    Number of boundary faces = 5922
+
+Processor 12
+    Number of cells = 9989
+    Number of faces shared with processor 13 = 185
+    Number of faces shared with processor 14 = 174
+    Number of faces shared with processor 15 = 101
+    Number of faces shared with processor 19 = 131
+    Number of faces shared with processor 10 = 146
+    Number of faces shared with processor 3 = 138
+    Number of faces shared with processor 30 = 181
+    Number of faces shared with processor 8 = 164
+    Number of faces shared with processor 9 = 9
+    Number of processor patches = 9
+    Number of processor faces = 1229
+    Number of boundary faces = 6346
+
+Processor 13
+    Number of cells = 9811
+    Number of faces shared with processor 12 = 185
+    Number of faces shared with processor 15 = 199
+    Number of faces shared with processor 14 = 175
+    Number of faces shared with processor 5 = 136
+    Number of faces shared with processor 10 = 98
+    Number of faces shared with processor 11 = 14
+    Number of faces shared with processor 8 = 133
+    Number of faces shared with processor 16 = 228
+    Number of processor patches = 8
+    Number of processor faces = 1168
+    Number of boundary faces = 6702
+
+Processor 14
+    Number of cells = 10826
+    Number of faces shared with processor 13 = 175
+    Number of faces shared with processor 15 = 626
+    Number of faces shared with processor 12 = 174
+    Number of faces shared with processor 19 = 67
+    Number of processor patches = 4
+    Number of processor faces = 1042
+    Number of boundary faces = 5290
+
+Processor 15
+    Number of cells = 10813
+    Number of faces shared with processor 13 = 199
+    Number of faces shared with processor 14 = 626
+    Number of faces shared with processor 12 = 101
+    Number of faces shared with processor 5 = 5
+    Number of faces shared with processor 8 = 138
+    Number of faces shared with processor 10 = 4
+    Number of processor patches = 6
+    Number of processor faces = 1073
+    Number of boundary faces = 5468
+
+Processor 16
+    Number of cells = 9910
+    Number of faces shared with processor 13 = 228
+    Number of faces shared with processor 29 = 197
+    Number of faces shared with processor 18 = 117
+    Number of faces shared with processor 20 = 134
+    Number of faces shared with processor 17 = 186
+    Number of faces shared with processor 31 = 2
+    Number of processor patches = 6
+    Number of processor faces = 864
+    Number of boundary faces = 6466
+
+Processor 17
+    Number of cells = 9851
+    Number of faces shared with processor 18 = 147
+    Number of faces shared with processor 22 = 85
+    Number of faces shared with processor 16 = 186
+    Number of faces shared with processor 20 = 16
+    Number of faces shared with processor 24 = 185
+    Number of processor patches = 5
+    Number of processor faces = 619
+    Number of boundary faces = 5562
+
+Processor 18
+    Number of cells = 10691
+    Number of faces shared with processor 19 = 767
+    Number of faces shared with processor 17 = 147
+    Number of faces shared with processor 16 = 117
+    Number of faces shared with processor 10 = 115
+    Number of faces shared with processor 3 = 1
+    Number of processor patches = 5
+    Number of processor faces = 1147
+    Number of boundary faces = 7130
+
+Processor 19
+    Number of cells = 10575
+    Number of faces shared with processor 12 = 131
+    Number of faces shared with processor 14 = 67
+    Number of faces shared with processor 18 = 767
+    Number of faces shared with processor 31 = 273
+    Number of faces shared with processor 30 = 2
+    Number of processor patches = 5
+    Number of processor faces = 1240
+    Number of boundary faces = 4810
+
+Processor 20
+    Number of cells = 10199
+    Number of faces shared with processor 16 = 134
+    Number of faces shared with processor 17 = 16
+    Number of faces shared with processor 22 = 290
+    Number of faces shared with processor 21 = 894
+    Number of faces shared with processor 11 = 100
+    Number of faces shared with processor 10 = 2
+    Number of processor patches = 6
+    Number of processor faces = 1436
+    Number of boundary faces = 4958
+
+Processor 21
+    Number of cells = 10168
+    Number of faces shared with processor 11 = 1
+    Number of faces shared with processor 20 = 894
+    Number of faces shared with processor 22 = 447
+    Number of faces shared with processor 23 = 428
+    Number of processor patches = 4
+    Number of processor faces = 1770
+    Number of boundary faces = 4406
+
+Processor 22
+    Number of cells = 10650
+    Number of faces shared with processor 20 = 290
+    Number of faces shared with processor 17 = 85
+    Number of faces shared with processor 21 = 447
+    Number of faces shared with processor 3 = 169
+    Number of faces shared with processor 23 = 370
+    Number of faces shared with processor 27 = 198
+    Number of processor patches = 6
+    Number of processor faces = 1559
+    Number of boundary faces = 5184
+
+Processor 23
+    Number of cells = 10421
+    Number of faces shared with processor 21 = 428
+    Number of faces shared with processor 22 = 370
+    Number of faces shared with processor 2 = 24
+    Number of processor patches = 3
+    Number of processor faces = 822
+    Number of boundary faces = 4702
+
+Processor 24
+    Number of cells = 10024
+    Number of faces shared with processor 25 = 669
+    Number of faces shared with processor 30 = 481
+    Number of faces shared with processor 28 = 116
+    Number of faces shared with processor 26 = 446
+    Number of faces shared with processor 17 = 185
+    Number of processor patches = 5
+    Number of processor faces = 1897
+    Number of boundary faces = 4814
+
+Processor 25
+    Number of cells = 10491
+    Number of faces shared with processor 24 = 669
+    Number of faces shared with processor 28 = 430
+    Number of faces shared with processor 30 = 63
+    Number of faces shared with processor 26 = 610
+    Number of faces shared with processor 27 = 37
+    Number of processor patches = 5
+    Number of processor faces = 1809
+    Number of boundary faces = 3950
+
+Processor 26
+    Number of cells = 9842
+    Number of faces shared with processor 27 = 614
+    Number of faces shared with processor 4 = 1
+    Number of faces shared with processor 30 = 205
+    Number of faces shared with processor 24 = 446
+    Number of faces shared with processor 25 = 610
+    Number of faces shared with processor 28 = 199
+    Number of processor patches = 6
+    Number of processor faces = 2075
+    Number of boundary faces = 4662
+
+Processor 27
+    Number of cells = 10714
+    Number of faces shared with processor 22 = 198
+    Number of faces shared with processor 26 = 614
+    Number of faces shared with processor 25 = 37
+    Number of faces shared with processor 4 = 247
+    Number of faces shared with processor 3 = 211
+    Number of processor patches = 5
+    Number of processor faces = 1307
+    Number of boundary faces = 5908
+
+Processor 28
+    Number of cells = 10237
+    Number of faces shared with processor 31 = 434
+    Number of faces shared with processor 30 = 354
+    Number of faces shared with processor 29 = 285
+    Number of faces shared with processor 25 = 430
+    Number of faces shared with processor 24 = 116
+    Number of faces shared with processor 26 = 199
+    Number of processor patches = 6
+    Number of processor faces = 1818
+    Number of boundary faces = 4610
+
+Processor 29
+    Number of cells = 10552
+    Number of faces shared with processor 16 = 197
+    Number of faces shared with processor 31 = 154
+    Number of faces shared with processor 30 = 241
+    Number of faces shared with processor 28 = 285
+    Number of faces shared with processor 8 = 187
+    Number of faces shared with processor 10 = 8
+    Number of processor patches = 6
+    Number of processor faces = 1072
+    Number of boundary faces = 4824
+
+Processor 30
+    Number of cells = 10199
+    Number of faces shared with processor 31 = 677
+    Number of faces shared with processor 29 = 241
+    Number of faces shared with processor 28 = 354
+    Number of faces shared with processor 24 = 481
+    Number of faces shared with processor 25 = 63
+    Number of faces shared with processor 12 = 181
+    Number of faces shared with processor 8 = 7
+    Number of faces shared with processor 19 = 2
+    Number of faces shared with processor 26 = 205
+    Number of processor patches = 9
+    Number of processor faces = 2211
+    Number of boundary faces = 4402
+
+Processor 31
+    Number of cells = 10496
+    Number of faces shared with processor 30 = 677
+    Number of faces shared with processor 29 = 154
+    Number of faces shared with processor 16 = 2
+    Number of faces shared with processor 28 = 434
+    Number of faces shared with processor 19 = 273
+    Number of processor patches = 5
+    Number of processor faces = 1540
+    Number of boundary faces = 4946
+
+Number of processor faces = 20665
+Max number of cells = 10837 (4.96837% above average 10324.1)
+Max number of processor patches = 9 (50% above average 6)
+Max number of faces between processors = 2211 (71.188% above average 1291.56)
+
+Writing redistributed mesh to 0
+
+
+You can pick up the redecomposed mesh from the polyMesh directory in 0.
+If you redecomposed the mesh to less processors you can delete
+the processor directories with 0 sized meshes in them.
+Below is a sample set of commands to do this. Take care when issuing these
+commands.
+
+    rm -r processor0/constant/polyMesh
+    mv processor0/0/polyMesh processor0/constant/polyMesh
+    rm -r processor1/constant/polyMesh
+    mv processor1/0/polyMesh processor1/constant/polyMesh
+    rm -r processor2/constant/polyMesh
+    mv processor2/0/polyMesh processor2/constant/polyMesh
+    rm -r processor3/constant/polyMesh
+    mv processor3/0/polyMesh processor3/constant/polyMesh
+    rm -r processor4/constant/polyMesh
+    mv processor4/0/polyMesh processor4/constant/polyMesh
+    rm -r processor5/constant/polyMesh
+    mv processor5/0/polyMesh processor5/constant/polyMesh
+    rm -r processor6/constant/polyMesh
+    mv processor6/0/polyMesh processor6/constant/polyMesh
+    rm -r processor7/constant/polyMesh
+    mv processor7/0/polyMesh processor7/constant/polyMesh
+    rm -r processor8/constant/polyMesh
+    mv processor8/0/polyMesh processor8/constant/polyMesh
+    rm -r processor9/constant/polyMesh
+    mv processor9/0/polyMesh processor9/constant/polyMesh
+    rm -r processor10/constant/polyMesh
+    mv processor10/0/polyMesh processor10/constant/polyMesh
+    rm -r processor11/constant/polyMesh
+    mv processor11/0/polyMesh processor11/constant/polyMesh
+    rm -r processor12/constant/polyMesh
+    mv processor12/0/polyMesh processor12/constant/polyMesh
+    rm -r processor13/constant/polyMesh
+    mv processor13/0/polyMesh processor13/constant/polyMesh
+    rm -r processor14/constant/polyMesh
+    mv processor14/0/polyMesh processor14/constant/polyMesh
+    rm -r processor15/constant/polyMesh
+    mv processor15/0/polyMesh processor15/constant/polyMesh
+    rm -r processor16/constant/polyMesh
+    mv processor16/0/polyMesh processor16/constant/polyMesh
+    rm -r processor17/constant/polyMesh
+    mv processor17/0/polyMesh processor17/constant/polyMesh
+    rm -r processor18/constant/polyMesh
+    mv processor18/0/polyMesh processor18/constant/polyMesh
+    rm -r processor19/constant/polyMesh
+    mv processor19/0/polyMesh processor19/constant/polyMesh
+    rm -r processor20/constant/polyMesh
+    mv processor20/0/polyMesh processor20/constant/polyMesh
+    rm -r processor21/constant/polyMesh
+    mv processor21/0/polyMesh processor21/constant/polyMesh
+    rm -r processor22/constant/polyMesh
+    mv processor22/0/polyMesh processor22/constant/polyMesh
+    rm -r processor23/constant/polyMesh
+    mv processor23/0/polyMesh processor23/constant/polyMesh
+    rm -r processor24/constant/polyMesh
+    mv processor24/0/polyMesh processor24/constant/polyMesh
+    rm -r processor25/constant/polyMesh
+    mv processor25/0/polyMesh processor25/constant/polyMesh
+    rm -r processor26/constant/polyMesh
+    mv processor26/0/polyMesh processor26/constant/polyMesh
+    rm -r processor27/constant/polyMesh
+    mv processor27/0/polyMesh processor27/constant/polyMesh
+    rm -r processor28/constant/polyMesh
+    mv processor28/0/polyMesh processor28/constant/polyMesh
+    rm -r processor29/constant/polyMesh
+    mv processor29/0/polyMesh processor29/constant/polyMesh
+    rm -r processor30/constant/polyMesh
+    mv processor30/0/polyMesh processor30/constant/polyMesh
+    rm -r processor31/constant/polyMesh
+    mv processor31/0/polyMesh processor31/constant/polyMesh
+
+End
+
+Finalising parallel run

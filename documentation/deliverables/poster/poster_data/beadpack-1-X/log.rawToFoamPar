@@ -1,0 +1,635 @@
+Openning header file: beadpack_input.mhd
+beadpack_input.mhd:
+ ObjectType: 
+ NDims: 
+ ElementType: 
+ DimSize:  Nxyz: 100 100 100   
+ ElementSpacing:  dX: 2  2  2   
+ Offset:  X0: 0  0   0
+ ElementDataFile:  ElementDataFile = ../../beadpack.raw    
+ pore:  reading binary file ../../beadpack.raw.
+pore:   converting to binary (0 and 1):
+  selecting pore (->0) with values between: 0  and 0  inclusive.
+
+: 
+ skipping the contents of file beadpack_input.mhd after entry "" 
+calculating image porosity:
+ total porosity: 330583/(100*100*100) = 0.330583
+converting to OpenFOAM format 
+  cropping,   i: 0 99  j: 0 99  k: 0 99  , adding 1 layers with value 2  removing disconected parts of the image 
+s1 5->1    s1 6->1    s1 7->1    s2 2->1    : 228525   : 1909   : 48   : 2   : 0   maxReg  1
+  cropping,   i: 1 100  j: 1 100  k: 1 100  , adding 1 layers with value 2  converting to OpenFOAM format 
+calculating image porosity:
+ total porosity: 330370/(102*102*102) = 0.311315
+iBs: 0 ... 100
+jBs: 0 ... 100
+kBs: 0 ... 100
+poro_000:0.451409  iBx27
+poro_100:0.104965  iBx27
+poro_200:0.408067  iBx27
+poro_300:0.149494  iBx27
+poro_010:0.288857  iBx27
+poro_110:0.27084  iBx27
+poro_210:0.162947  iBx27
+poro_310:0.285375  iBx27
+poro_020:0.206342  iBx27
+poro_120:0.298934  iBx27
+poro_220:0.28031  iBx27
+poro_320:0.584309  iBx27
+poro_030:0.269363  iBx27
+poro_130:0.29904  iBx27
+poro_230:0.122797  iBx27
+poro_330:0.456368  iBx27
+poro_001:0.280126  iBx27
+poro_101:0.168856  iBx27
+poro_201:0.487865  iBx27
+poro_301:0.145695  iBx27
+poro_011:0.33336  iBx27
+poro_111:0.34436  iBx27
+poro_211:0.571357  iBx27
+poro_311:0.573309  iBx27
+poro_021:0.314973  iBx27
+poro_121:0.166535  iBx27
+poro_221:0.29933  iBx27
+poro_321:0.342171  iBx27
+poro_031:0.398781  iBx27
+poro_131:0.410072  iBx27
+poro_231:0.30727  iBx27
+poro_331:0.140656  iBx27
+************* processor: 0 0 0, Phi=45.1409 *************
+procIs, size: 6 6 4,  ijk: 1  1  1
+processor0  N: 25 25 50
+nPoints: 19575
+writing points   done
+nCells: 16122
+nInternalFaces: 45056
+nGrainwallsFaces: 4502
+nLeftFaces: 586
+nRightFaces: 177
+nBottomFaces: 310
+nTopFaces: 563
+nBackFaces: 277
+nFrontFaces: 205
+creating faces
+collecting faces
+.................................................
+
+************* processor: 1 0 0, Phi=10.4965 *************
+procIs, size: 6 6 4,  ijk: 2  1  1
+processor1  N: 25 25 50
+nPoints: 4922
+writing points   done
+nCells: 3269
+nInternalFaces: 8351
+nGrainwallsFaces: 1990
+nLeftFaces: 177
+nRightFaces: 276
+nBottomFaces: 331
+nTopFaces: 138
+nBackFaces: 0
+nFrontFaces: 0
+creating faces
+collecting faces
+.................................................
+
+************* processor: 2 0 0, Phi=40.8067 *************
+procIs, size: 6 6 4,  ijk: 3  1  1
+processor2  N: 25 25 50
+nPoints: 17625
+writing points   done
+nCells: 14256
+nInternalFaces: 39582
+nGrainwallsFaces: 4270
+nLeftFaces: 276
+nRightFaces: 233
+nBottomFaces: 746
+nTopFaces: 320
+nBackFaces: 221
+nFrontFaces: 306
+creating faces
+collecting faces
+.................................................
+
+************* processor: 3 0 0, Phi=14.9494 *************
+procIs, size: 6 6 4,  ijk: 4  1  1
+processor3  N: 25 25 50
+nPoints: 6925
+writing points   done
+nCells: 4887
+nInternalFaces: 12886
+nGrainwallsFaces: 2490
+nLeftFaces: 233
+nRightFaces: 324
+nBottomFaces: 82
+nTopFaces: 371
+nBackFaces: 18
+nFrontFaces: 32
+creating faces
+collecting faces
+.................................................
+
+************* processor: 0 1 0, Phi=28.8857 *************
+procIs, size: 6 6 4,  ijk: 1  2  1
+processor4  N: 25 25 50
+nPoints: 12960
+writing points   done
+nCells: 9810
+nInternalFaces: 26481
+nGrainwallsFaces: 4464
+nLeftFaces: 221
+nRightFaces: 231
+nBottomFaces: 563
+nTopFaces: 157
+nBackFaces: 149
+nFrontFaces: 113
+creating faces
+collecting faces
+.................................................
+
+************* processor: 1 1 0, Phi=27.084 *************
+procIs, size: 6 6 4,  ijk: 2  2  1
+processor5  N: 25 25 50
+nPoints: 12065
+writing points   done
+nCells: 8915
+nInternalFaces: 23810
+nGrainwallsFaces: 4544
+nLeftFaces: 231
+nRightFaces: 314
+nBottomFaces: 138
+nTopFaces: 402
+nBackFaces: 109
+nFrontFaces: 132
+creating faces
+collecting faces
+.................................................
+
+************* processor: 2 1 0, Phi=16.2947 *************
+procIs, size: 6 6 4,  ijk: 3  2  1
+processor6  N: 25 25 50
+nPoints: 7277
+writing points   done
+nCells: 5034
+nInternalFaces: 13143
+nGrainwallsFaces: 2912
+nLeftFaces: 314
+nRightFaces: 125
+nBottomFaces: 320
+nTopFaces: 198
+nBackFaces: 48
+nFrontFaces: 1
+creating faces
+collecting faces
+.................................................
+
+************* processor: 3 1 0, Phi=28.5375 *************
+procIs, size: 6 6 4,  ijk: 4  2  1
+processor7  N: 25 25 50
+nPoints: 13137
+writing points   done
+nCells: 9781
+nInternalFaces: 26210
+nGrainwallsFaces: 4735
+nLeftFaces: 125
+nRightFaces: 489
+nBottomFaces: 371
+nTopFaces: 240
+nBackFaces: 122
+nFrontFaces: 184
+creating faces
+collecting faces
+.................................................
+
+************* processor: 0 2 0, Phi=20.6342 *************
+procIs, size: 6 6 4,  ijk: 1  3  1
+processor8  N: 25 25 50
+nPoints: 9379
+writing points   done
+nCells: 7012
+nInternalFaces: 18905
+nGrainwallsFaces: 2725
+nLeftFaces: 731
+nRightFaces: 77
+nBottomFaces: 157
+nTopFaces: 389
+nBackFaces: 130
+nFrontFaces: 53
+creating faces
+collecting faces
+.................................................
+
+************* processor: 1 2 0, Phi=29.8934 *************
+procIs, size: 6 6 4,  ijk: 2  3  1
+processor9  N: 25 25 50
+nPoints: 12566
+writing points   done
+nCells: 9413
+nInternalFaces: 25321
+nGrainwallsFaces: 4001
+nLeftFaces: 77
+nRightFaces: 663
+nBottomFaces: 402
+nTopFaces: 355
+nBackFaces: 109
+nFrontFaces: 229
+creating faces
+collecting faces
+.................................................
+
+************* processor: 2 2 0, Phi=28.031 *************
+procIs, size: 6 6 4,  ijk: 3  3  1
+processor10  N: 25 25 50
+nPoints: 11927
+writing points   done
+nCells: 8707
+nInternalFaces: 23131
+nGrainwallsFaces: 4100
+nLeftFaces: 663
+nRightFaces: 393
+nBottomFaces: 198
+nTopFaces: 263
+nBackFaces: 142
+nFrontFaces: 221
+creating faces
+collecting faces
+.................................................
+
+************* processor: 3 2 0, Phi=58.4309 *************
+procIs, size: 6 6 4,  ijk: 4  3  1
+processor11  N: 25 25 50
+nPoints: 23553
+writing points   done
+nCells: 20194
+nInternalFaces: 57338
+nGrainwallsFaces: 3494
+nLeftFaces: 393
+nRightFaces: 862
+nBottomFaces: 240
+nTopFaces: 998
+nBackFaces: 218
+nFrontFaces: 283
+creating faces
+collecting faces
+.................................................
+
+************* processor: 0 3 0, Phi=26.9363 *************
+procIs, size: 6 6 4,  ijk: 1  4  1
+processor12  N: 25 25 50
+nPoints: 11568
+writing points   done
+nCells: 8739
+nInternalFaces: 23749
+nGrainwallsFaces: 3017
+nLeftFaces: 468
+nRightFaces: 380
+nBottomFaces: 389
+nTopFaces: 174
+nBackFaces: 49
+nFrontFaces: 459
+creating faces
+collecting faces
+.................................................
+
+************* processor: 1 3 0, Phi=29.904 *************
+procIs, size: 6 6 4,  ijk: 2  4  1
+processor13  N: 25 25 50
+nPoints: 13268
+writing points   done
+nCells: 10047
+nInternalFaces: 27114
+nGrainwallsFaces: 4369
+nLeftFaces: 380
+nRightFaces: 167
+nBottomFaces: 355
+nTopFaces: 245
+nBackFaces: 273
+nFrontFaces: 265
+creating faces
+collecting faces
+.................................................
+
+************* processor: 2 3 0, Phi=12.2797 *************
+procIs, size: 6 6 4,  ijk: 3  4  1
+processor14  N: 25 25 50
+nPoints: 5468
+writing points   done
+nCells: 3677
+nInternalFaces: 9469
+nGrainwallsFaces: 2042
+nLeftFaces: 167
+nRightFaces: 188
+nBottomFaces: 263
+nTopFaces: 215
+nBackFaces: 45
+nFrontFaces: 204
+creating faces
+collecting faces
+.................................................
+
+************* processor: 3 3 0, Phi=45.6368 *************
+procIs, size: 6 6 4,  ijk: 4  4  1
+processor15  N: 25 25 50
+nPoints: 19336
+writing points   done
+nCells: 16012
+nInternalFaces: 44880
+nGrainwallsFaces: 3656
+nLeftFaces: 188
+nRightFaces: 707
+nBottomFaces: 998
+nTopFaces: 632
+nBackFaces: 112
+nFrontFaces: 19
+creating faces
+collecting faces
+.................................................
+
+************* processor: 0 0 1, Phi=28.0126 *************
+procIs, size: 6 6 4,  ijk: 1  1  2
+processor16  N: 25 25 50
+nPoints: 13041
+writing points   done
+nCells: 9940
+nInternalFaces: 26889
+nGrainwallsFaces: 4183
+nLeftFaces: 387
+nRightFaces: 258
+nBottomFaces: 501
+nTopFaces: 150
+nBackFaces: 205
+nFrontFaces: 178
+creating faces
+collecting faces
+.................................................
+
+************* processor: 1 0 1, Phi=16.8856 *************
+procIs, size: 6 6 4,  ijk: 2  1  2
+processor17  N: 25 25 50
+nPoints: 7372
+writing points   done
+nCells: 5455
+nInternalFaces: 14601
+nGrainwallsFaces: 2357
+nLeftFaces: 258
+nRightFaces: 229
+nBottomFaces: 145
+nTopFaces: 379
+nBackFaces: 0
+nFrontFaces: 160
+creating faces
+collecting faces
+.................................................
+
+************* processor: 2 0 1, Phi=48.7865 *************
+procIs, size: 6 6 4,  ijk: 3  1  2
+processor18  N: 25 25 50
+nPoints: 19826
+writing points   done
+nCells: 16394
+nInternalFaces: 45901
+nGrainwallsFaces: 3915
+nLeftFaces: 229
+nRightFaces: 448
+nBottomFaces: 458
+nTopFaces: 998
+nBackFaces: 306
+nFrontFaces: 208
+creating faces
+collecting faces
+.................................................
+
+************* processor: 3 0 1, Phi=14.5695 *************
+procIs, size: 6 6 4,  ijk: 4  1  2
+processor19  N: 25 25 50
+nPoints: 6475
+writing points   done
+nCells: 4297
+nInternalFaces: 11113
+nGrainwallsFaces: 2230
+nLeftFaces: 448
+nRightFaces: 158
+nBottomFaces: 172
+nTopFaces: 482
+nBackFaces: 32
+nFrontFaces: 34
+creating faces
+collecting faces
+.................................................
+
+************* processor: 0 1 1, Phi=33.336 *************
+procIs, size: 6 6 4,  ijk: 1  2  2
+processor20  N: 25 25 50
+nPoints: 13960
+writing points   done
+nCells: 11234
+nInternalFaces: 31183
+nGrainwallsFaces: 3545
+nLeftFaces: 212
+nRightFaces: 351
+nBottomFaces: 150
+nTopFaces: 667
+nBackFaces: 113
+nFrontFaces: 0
+creating faces
+collecting faces
+.................................................
+
+************* processor: 1 1 1, Phi=34.436 *************
+procIs, size: 6 6 4,  ijk: 2  2  2
+processor21  N: 25 25 50
+nPoints: 14703
+writing points   done
+nCells: 11373
+nInternalFaces: 31007
+nGrainwallsFaces: 4353
+nLeftFaces: 351
+nRightFaces: 506
+nBottomFaces: 379
+nTopFaces: 170
+nBackFaces: 132
+nFrontFaces: 333
+creating faces
+collecting faces
+.................................................
+
+************* processor: 2 1 1, Phi=57.1357 *************
+procIs, size: 6 6 4,  ijk: 3  2  2
+processor22  N: 25 25 50
+nPoints: 21937
+writing points   done
+nCells: 18740
+nInternalFaces: 53214
+nGrainwallsFaces: 2698
+nLeftFaces: 506
+nRightFaces: 902
+nBottomFaces: 998
+nTopFaces: 329
+nBackFaces: 1
+nFrontFaces: 578
+creating faces
+collecting faces
+.................................................
+
+************* processor: 3 1 1, Phi=57.3309 *************
+procIs, size: 6 6 4,  ijk: 4  2  2
+processor23  N: 25 25 50
+nPoints: 22980
+writing points   done
+nCells: 19487
+nInternalFaces: 55105
+nGrainwallsFaces: 3686
+nLeftFaces: 902
+nRightFaces: 467
+nBottomFaces: 482
+nTopFaces: 555
+nBackFaces: 184
+nFrontFaces: 436
+creating faces
+collecting faces
+.................................................
+
+************* processor: 0 2 1, Phi=31.4973 *************
+procIs, size: 6 6 4,  ijk: 1  3  2
+processor24  N: 25 25 50
+nPoints: 14164
+writing points   done
+nCells: 10441
+nInternalFaces: 27777
+nGrainwallsFaces: 4962
+nLeftFaces: 272
+nRightFaces: 334
+nBottomFaces: 667
+nTopFaces: 339
+nBackFaces: 53
+nFrontFaces: 465
+creating faces
+collecting faces
+.................................................
+
+************* processor: 1 2 1, Phi=16.6535 *************
+procIs, size: 6 6 4,  ijk: 2  3  2
+processor25  N: 25 25 50
+nPoints: 6797
+writing points   done
+nCells: 4680
+nInternalFaces: 12240
+nGrainwallsFaces: 2162
+nLeftFaces: 334
+nRightFaces: 193
+nBottomFaces: 170
+nTopFaces: 418
+nBackFaces: 229
+nFrontFaces: 94
+creating faces
+collecting faces
+.................................................
+
+************* processor: 2 2 1, Phi=29.933 *************
+procIs, size: 6 6 4,  ijk: 3  3  2
+processor26  N: 25 25 50
+nPoints: 12600
+writing points   done
+nCells: 9451
+nInternalFaces: 25421
+nGrainwallsFaces: 4009
+nLeftFaces: 193
+nRightFaces: 642
+nBottomFaces: 329
+nTopFaces: 335
+nBackFaces: 221
+nFrontFaces: 135
+creating faces
+collecting faces
+.................................................
+
+************* processor: 3 2 1, Phi=34.2171 *************
+procIs, size: 6 6 4,  ijk: 4  3  2
+processor27  N: 25 25 50
+nPoints: 14542
+writing points   done
+nCells: 11157
+nInternalFaces: 30293
+nGrainwallsFaces: 4485
+nLeftFaces: 642
+nRightFaces: 168
+nBottomFaces: 555
+nTopFaces: 200
+nBackFaces: 283
+nFrontFaces: 23
+creating faces
+collecting faces
+.................................................
+
+************* processor: 0 3 1, Phi=39.8781 *************
+procIs, size: 6 6 4,  ijk: 1  4  2
+processor28  N: 25 25 50
+nPoints: 16979
+writing points   done
+nCells: 13384
+nInternalFaces: 36674
+nGrainwallsFaces: 3855
+nLeftFaces: 212
+nRightFaces: 874
+nBottomFaces: 339
+nTopFaces: 712
+nBackFaces: 459
+nFrontFaces: 505
+creating faces
+collecting faces
+.................................................
+
+************* processor: 1 3 1, Phi=41.0072 *************
+procIs, size: 6 6 4,  ijk: 2  4  2
+processor29  N: 25 25 50
+nPoints: 16575
+writing points   done
+nCells: 13284
+nInternalFaces: 36763
+nGrainwallsFaces: 3782
+nLeftFaces: 874
+nRightFaces: 528
+nBottomFaces: 418
+nTopFaces: 134
+nBackFaces: 265
+nFrontFaces: 177
+creating faces
+collecting faces
+.................................................
+
+************* processor: 2 3 1, Phi=30.727 *************
+procIs, size: 6 6 4,  ijk: 3  4  2
+processor30  N: 25 25 50
+nPoints: 13435
+writing points   done
+nCells: 10312
+nInternalFaces: 27978
+nGrainwallsFaces: 4250
+nLeftFaces: 528
+nRightFaces: 168
+nBottomFaces: 335
+nTopFaces: 279
+nBackFaces: 204
+nFrontFaces: 152
+creating faces
+collecting faces
+.................................................
+
+************* processor: 3 3 1, Phi=14.0656 *************
+procIs, size: 6 6 4,  ijk: 4  4  2
+processor31  N: 25 25 50
+nPoints: 6910
+writing points   done
+nCells: 4866
+nInternalFaces: 12760
+nGrainwallsFaces: 2454
+nLeftFaces: 168
+nRightFaces: 348
+nBottomFaces: 200
+nTopFaces: 362
+nBackFaces: 19
+nFrontFaces: 125
+creating faces
+collecting faces
+.................................................
+
+:/

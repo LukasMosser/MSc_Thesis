@@ -1,0 +1,97 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.3.0-f5222ca19ce6
+Exec   : calc_distributions -parallel
+Date   : Aug 27 2016
+Time   : 17:18:32
+Host   : "ese-tesla3"
+PID    : 21458
+Case   : /data2/Lukas/images/beadpack_small/beadpack/beadpack-1-X
+nProcs : 32
+Slaves : 
+31
+(
+"ese-tesla3.21459"
+"ese-tesla3.21460"
+"ese-tesla3.21461"
+"ese-tesla3.21462"
+"ese-tesla3.21463"
+"ese-tesla3.21464"
+"ese-tesla3.21465"
+"ese-tesla3.21466"
+"ese-tesla3.21467"
+"ese-tesla3.21468"
+"ese-tesla3.21469"
+"ese-tesla3.21470"
+"ese-tesla3.21471"
+"ese-tesla3.21472"
+"ese-tesla3.21473"
+"ese-tesla3.21474"
+"ese-tesla3.21475"
+"ese-tesla3.21476"
+"ese-tesla3.21477"
+"ese-tesla3.21478"
+"ese-tesla3.21479"
+"ese-tesla3.21480"
+"ese-tesla3.21481"
+"ese-tesla3.21482"
+"ese-tesla3.21483"
+"ese-tesla3.21484"
+"ese-tesla3.21485"
+"ese-tesla3.21486"
+"ese-tesla3.21487"
+"ese-tesla3.21488"
+"ese-tesla3.21489"
+)
+
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading/calculating face flux field phi
+
+Reading transportProperties
+
+ 2e-06 0.0002 0.0002 0.0002 
+Reading field p
+
+Reading transportProperties
+
+Reading diffusivity K
+
+
+PIMPLE: Operating solver in PISO mode
+
+
+calculating formation factor 
+
+Time = 0.00679729
+
+GAMGPCG:  Solving for p, Initial residual = 0.0456163, Final residual = 9.96936e-05, No Iterations 3
+ExecutionTime = 29.17 s  ClockTime = 32 s
+
+Time = 0.00687729
+
+GAMGPCG:  Solving for p, Initial residual = 0.000103905, Final residual = 6.54369e-07, No Iterations 3
+ExecutionTime = 35.83 s  ClockTime = 40 s
+
+.
+
+"beadpack-1-X/processor0"	effPorosity= 0.33037 		K_x= 3.40797e-12 m^2 		FF_x= 5.34429 		DarcyVelocity= 1.70399e-05 m/s 		DelP= 1 Pa 		K: 3.40797e-12 m^2 			K=( 3.40797e-12  0  0 ) Pmax-Pmin: 1.02161 Umax= 0.000508081		 effPorosity = V_pore / (L_x*L_y*L_z) = 2.64296e-12 /  (0.0002*0.0002*0.0002) = 0.33037		 Re= rho*VDarcy*sqrt(K)/mu = 1000 * 1.70399e-05 * sqrt(3.40797e-12) / 0.001 ) = 3.14568e-05
+end
+Finalising parallel run

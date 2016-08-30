@@ -1,0 +1,73 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.3.0-f5222ca19ce6
+Exec   : calc_perms -parallel
+Date   : Aug 27 2016
+Time   : 17:18:30
+Host   : "ese-tesla3"
+PID    : 21414
+Case   : /data2/Lukas/images/beadpack_small/beadpack/beadpack-1-X
+nProcs : 32
+Slaves : 
+31
+(
+"ese-tesla3.21415"
+"ese-tesla3.21416"
+"ese-tesla3.21417"
+"ese-tesla3.21418"
+"ese-tesla3.21419"
+"ese-tesla3.21420"
+"ese-tesla3.21421"
+"ese-tesla3.21422"
+"ese-tesla3.21423"
+"ese-tesla3.21424"
+"ese-tesla3.21425"
+"ese-tesla3.21426"
+"ese-tesla3.21427"
+"ese-tesla3.21428"
+"ese-tesla3.21429"
+"ese-tesla3.21430"
+"ese-tesla3.21431"
+"ese-tesla3.21432"
+"ese-tesla3.21433"
+"ese-tesla3.21434"
+"ese-tesla3.21435"
+"ese-tesla3.21436"
+"ese-tesla3.21437"
+"ese-tesla3.21438"
+"ese-tesla3.21439"
+"ese-tesla3.21440"
+"ese-tesla3.21441"
+"ese-tesla3.21442"
+"ese-tesla3.21443"
+"ese-tesla3.21444"
+"ese-tesla3.21445"
+)
+
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading/calculating face flux field phi
+
+Reading transportProperties
+
+ 2e-06 0.0002 0.0002 0.0002 
+"beadpack-1-X/processor0"	K_x= 3.40797e-12 m^2 		effPorosity= 0.33037 		DarcyVelocity= 1.70399e-05 m/s 		DelP= 1 Pa 		K: 3.40797e-12 m^2 			K=( 3.40797e-12  0  0 ) Pmax - Pmin 1.02161 Umax 0.000508081		 effPorosity = V_pore / (L_x*L_y*L_z) = 2.64296e-12 /  (0.0002*0.0002*0.0002) = 0.33037		 Re = rho*VDarcy*sqrt(K)/mu = 1000 * 1.70399e-05 * sqrt(3.40797e-12) / 0.001 ) = 3.14568e-05
+end
+Finalising parallel run

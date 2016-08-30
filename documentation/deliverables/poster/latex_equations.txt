@@ -1,0 +1,4 @@
+C(\textbf{r})=P(\textbf{o} \in \Xi, \textbf{r} \in \Xi)
+k_{eff}=\frac{\phi^{3}}{C_{\alpha}\tau(1-\phi)^{2}}
+W_{1}^{0,2}=\frac{1}{3} \intop\nolimits_{\partial K}^{}\textbf{n}^{2}dA
+\beta_{1}^{0,2}=\frac{min\{eig\{W_{1}^{0,2}\}\}}{max\{eig\{W_{1}^{0,2}\}\}} 

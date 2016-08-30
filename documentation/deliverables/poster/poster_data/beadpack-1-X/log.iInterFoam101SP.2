@@ -1,0 +1,1011 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.3.0-f5222ca19ce6
+Exec   : iInterFoam101SP -parallel
+Date   : Aug 27 2016
+Time   : 16:57:29
+Host   : "ese-tesla3"
+PID    : 16088
+Case   : /data2/Lukas/images/beadpack_small/beadpack/beadpack-1-X
+nProcs : 32
+Slaves : 
+31
+(
+"ese-tesla3.16089"
+"ese-tesla3.16090"
+"ese-tesla3.16091"
+"ese-tesla3.16092"
+"ese-tesla3.16093"
+"ese-tesla3.16094"
+"ese-tesla3.16095"
+"ese-tesla3.16096"
+"ese-tesla3.16097"
+"ese-tesla3.16098"
+"ese-tesla3.16099"
+"ese-tesla3.16100"
+"ese-tesla3.16101"
+"ese-tesla3.16102"
+"ese-tesla3.16103"
+"ese-tesla3.16104"
+"ese-tesla3.16105"
+"ese-tesla3.16106"
+"ese-tesla3.16107"
+"ese-tesla3.16108"
+"ese-tesla3.16109"
+"ese-tesla3.16110"
+"ese-tesla3.16111"
+"ese-tesla3.16112"
+"ese-tesla3.16113"
+"ese-tesla3.16114"
+"ese-tesla3.16115"
+"ese-tesla3.16116"
+"ese-tesla3.16117"
+"ese-tesla3.16118"
+"ese-tesla3.16119"
+)
+
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0.000274053
+
+
+PIMPLE: Operating solver in PISO mode
+
+Reading field U
+
+Reading field p
+
+Reading/calculating face flux field phi
+
+Reading transportProperties
+
+time step continuity errors : sum local = 3.6507e-06, global = 3.78902e-08, cumulative = 3.78902e-08
+GAMG:  Solving for pcorr, Initial residual = 1, Final residual = 7.51172e-06, No Iterations 19
+time step continuity errors : sum local = 2.7423e-11, global = -9.11543e-13, cumulative = 3.78893e-08
+Courant Number mean: 0.000573414 max: 0.00576532
+
+Starting time loop
+
+
+         Umax = 0.000524863 m/s  Uavg = 5.46681e-05 m/s   DP = 1.0231 Pa
+
+
+min(p): min(p) [1 -1 -2 0 0 0 0] -0.0143666  max(p): max(p) [1 -1 -2 0 0 0 0] 1.00873
+Courant Number mean: 0.000573414 max: 0.00576532
+deltaT = 1.38076e-05
+Time = 0.000287861
+
+GAMGPCG:  Solving for p, Initial residual = 0.00154788, Final residual = 1.62056e-05, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 0.000476803, Final residual = 2.1757e-06, No Iterations 3
+time step continuity errors : sum local = 3.69593e-06, global = 3.93187e-08, cumulative = 7.7208e-08
+ExecutionTime = 55.82 s  ClockTime = 60 s  timeStepExecutionTime  = 14.93 s
+Courant Number mean: 0.000603653 max: 0.00596327
+deltaT = 1.4498e-05
+Time = 0.000302359
+
+GAMGPCG:  Solving for p, Initial residual = 0.000556512, Final residual = 2.4841e-06, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 0.000352827, Final residual = 2.02199e-06, No Iterations 3
+time step continuity errors : sum local = 4.02783e-06, global = 4.20548e-08, cumulative = 1.19263e-07
+ExecutionTime = 71.47 s  ClockTime = 76 s  timeStepExecutionTime  = 15.65 s
+Courant Number mean: 0.000633524 max: 0.00625154
+deltaT = 1.52229e-05
+Time = 0.000317581
+
+GAMGPCG:  Solving for p, Initial residual = 0.000357804, Final residual = 2.6765e-06, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 5.97802e-05, Final residual = 6.64633e-07, No Iterations 2
+time step continuity errors : sum local = 4.23019e-06, global = 4.40992e-08, cumulative = 1.63362e-07
+ExecutionTime = 82.72 s  ClockTime = 87 s  timeStepExecutionTime  = 11.25 s
+Courant Number mean: 0.000664813 max: 0.006556
+deltaT = 1.5984e-05
+Time = 0.000333566
+
+GAMGPCG:  Solving for p, Initial residual = 0.000346947, Final residual = 2.49187e-06, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 4.57513e-05, Final residual = 3.86176e-07, No Iterations 2
+time step continuity errors : sum local = 4.44117e-06, global = 4.635e-08, cumulative = 2.09712e-07
+ExecutionTime = 93.84 s  ClockTime = 98 s  timeStepExecutionTime  = 11.12 s
+Courant Number mean: 0.000697671 max: 0.00687541
+deltaT = 1.67832e-05
+Time = 0.000350349
+
+ExeTime solve U = 0.01 s
+ExeTime - tOldPU = 0.08 s
+GAMGPCG:  Solving for p, Initial residual = 0.000163524, Final residual = 2.13625e-06, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 4.17031e-05, Final residual = 1.59604e-07, No Iterations 3
+time step continuity errors : sum local = 4.66145e-06, global = 4.87246e-08, cumulative = 2.58437e-07
+ExecutionTime = 106.66 s  ClockTime = 113 s  timeStepExecutionTime  = 12.82 s
+
+         Umax = 0.00052145 m/s  Uavg = 5.45418e-05 m/s   DP = 1.02273 Pa
+
+
+Courant Number mean: 0.000732166 max: 0.00721074
+deltaT = 1.76224e-05
+Time = 0.000367971
+
+GAMGPCG:  Solving for p, Initial residual = 0.000146627, Final residual = 1.32065e-06, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 2.9271e-05, Final residual = 1.04007e-07, No Iterations 3
+time step continuity errors : sum local = 4.89463e-06, global = 5.12183e-08, cumulative = 3.09655e-07
+ExecutionTime = 120.45 s  ClockTime = 127 s  timeStepExecutionTime  = 13.69 s
+Courant Number mean: 0.000768387 max: 0.00756272
+deltaT = 1.85035e-05
+Time = 0.000386475
+
+GAMGPCG:  Solving for p, Initial residual = 0.000133156, Final residual = 1.14271e-06, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 2.6073e-05, Final residual = 9.14531e-08, No Iterations 3
+time step continuity errors : sum local = 5.1396e-06, global = 5.3844e-08, cumulative = 3.63499e-07
+ExecutionTime = 136.23 s  ClockTime = 142 s  timeStepExecutionTime  = 15.78 s
+Courant Number mean: 0.000806417 max: 0.00793219
+deltaT = 1.94287e-05
+Time = 0.000405903
+
+GAMGPCG:  Solving for p, Initial residual = 0.000122271, Final residual = 1.0363e-06, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 2.40209e-05, Final residual = 8.54191e-08, No Iterations 3
+time step continuity errors : sum local = 5.39686e-06, global = 5.66019e-08, cumulative = 4.20101e-07
+ExecutionTime = 150.98 s  ClockTime = 157 s  timeStepExecutionTime  = 14.75 s
+Courant Number mean: 0.000846346 max: 0.00832005
+deltaT = 2.04001e-05
+Time = 0.000426303
+
+GAMGPCG:  Solving for p, Initial residual = 0.000115887, Final residual = 9.979e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 2.2921e-05, Final residual = 8.30691e-08, No Iterations 3
+time step continuity errors : sum local = 5.66695e-06, global = 5.94977e-08, cumulative = 4.79598e-07
+ExecutionTime = 166.13 s  ClockTime = 172 s  timeStepExecutionTime  = 15.15 s
+Courant Number mean: 0.00088827 max: 0.00872723
+deltaT = 2.14201e-05
+Time = 0.000447724
+
+ExeTime solve U = 0.07 s
+ExeTime - tOldPU = 0.21 s
+GAMGPCG:  Solving for p, Initial residual = 0.000110387, Final residual = 9.54068e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 2.19044e-05, Final residual = 7.95155e-08, No Iterations 3
+time step continuity errors : sum local = 5.95056e-06, global = 6.25388e-08, cumulative = 5.42137e-07
+ExecutionTime = 181.94 s  ClockTime = 188 s  timeStepExecutionTime  = 15.81 s
+
+         Umax = 0.000518752 m/s  Uavg = 5.44358e-05 m/s   DP = 1.02243 Pa
+
+
+Courant Number mean: 0.000932287 max: 0.00915471
+deltaT = 2.24911e-05
+Time = 0.000470215
+
+GAMGPCG:  Solving for p, Initial residual = 0.000105206, Final residual = 9.10125e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 2.09281e-05, Final residual = 7.59021e-08, No Iterations 3
+time step continuity errors : sum local = 6.24836e-06, global = 6.57325e-08, cumulative = 6.0787e-07
+ExecutionTime = 196.02 s  ClockTime = 203 s  timeStepExecutionTime  = 13.97 s
+Courant Number mean: 0.000978503 max: 0.00960351
+deltaT = 2.36157e-05
+Time = 0.00049383
+
+GAMGPCG:  Solving for p, Initial residual = 0.000100242, Final residual = 8.67156e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.99954e-05, Final residual = 7.24312e-08, No Iterations 3
+time step continuity errors : sum local = 6.56105e-06, global = 6.90864e-08, cumulative = 6.76956e-07
+ExecutionTime = 207.89 s  ClockTime = 215 s  timeStepExecutionTime  = 11.87 s
+Courant Number mean: 0.00102703 max: 0.0100747
+deltaT = 2.47965e-05
+Time = 0.000518627
+
+GAMGPCG:  Solving for p, Initial residual = 9.55297e-05, Final residual = 8.27033e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.91054e-05, Final residual = 6.92078e-08, No Iterations 3
+time step continuity errors : sum local = 6.88938e-06, global = 7.26084e-08, cumulative = 7.49565e-07
+ExecutionTime = 221.44 s  ClockTime = 229 s  timeStepExecutionTime  = 13.55 s
+Courant Number mean: 0.00107797 max: 0.0105694
+deltaT = 2.60363e-05
+Time = 0.000544663
+
+GAMGPCG:  Solving for p, Initial residual = 9.10546e-05, Final residual = 7.89085e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.82593e-05, Final residual = 6.61441e-08, No Iterations 3
+time step continuity errors : sum local = 7.23413e-06, global = 7.63069e-08, cumulative = 8.25872e-07
+ExecutionTime = 234.62 s  ClockTime = 243 s  timeStepExecutionTime  = 13.18 s
+Courant Number mean: 0.00113147 max: 0.0110888
+deltaT = 2.73381e-05
+Time = 0.000572001
+
+ExeTime solve U = 0.05 s
+ExeTime - tOldPU = 0.15 s
+GAMGPCG:  Solving for p, Initial residual = 8.68014e-05, Final residual = 7.53054e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.74503e-05, Final residual = 6.32082e-08, No Iterations 3
+time step continuity errors : sum local = 7.59612e-06, global = 8.01908e-08, cumulative = 9.06062e-07
+ExecutionTime = 247.86 s  ClockTime = 257 s  timeStepExecutionTime  = 13.24 s
+
+         Umax = 0.000516565 m/s  Uavg = 5.43504e-05 m/s   DP = 1.0222 Pa
+
+
+Courant Number mean: 0.00118763 max: 0.0116341
+deltaT = 2.8705e-05
+Time = 0.000600706
+
+GAMGPCG:  Solving for p, Initial residual = 8.27539e-05, Final residual = 7.18763e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.66781e-05, Final residual = 6.03979e-08, No Iterations 3
+time step continuity errors : sum local = 7.9762e-06, global = 8.42692e-08, cumulative = 9.90332e-07
+ExecutionTime = 260.78 s  ClockTime = 270 s  timeStepExecutionTime  = 12.8 s
+Courant Number mean: 0.0012466 max: 0.0122066
+deltaT = 3.01403e-05
+Time = 0.000630847
+
+GAMGPCG:  Solving for p, Initial residual = 7.89009e-05, Final residual = 6.86143e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.59393e-05, Final residual = 5.77078e-08, No Iterations 3
+time step continuity errors : sum local = 8.37529e-06, global = 8.85519e-08, cumulative = 1.07888e-06
+ExecutionTime = 273.95 s  ClockTime = 284 s  timeStepExecutionTime  = 13.17 s
+Courant Number mean: 0.00130852 max: 0.0128078
+deltaT = 3.16473e-05
+Time = 0.000662494
+
+GAMGPCG:  Solving for p, Initial residual = 7.52314e-05, Final residual = 6.55099e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.52333e-05, Final residual = 5.51368e-08, No Iterations 3
+time step continuity errors : sum local = 8.79434e-06, global = 9.30492e-08, cumulative = 1.17193e-06
+ExecutionTime = 288.54 s  ClockTime = 299 s  timeStepExecutionTime  = 14.59 s
+Courant Number mean: 0.00137353 max: 0.0134389
+deltaT = 3.32296e-05
+Time = 0.000695724
+
+GAMGPCG:  Solving for p, Initial residual = 7.17365e-05, Final residual = 6.25547e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.4558e-05, Final residual = 5.26761e-08, No Iterations 3
+time step continuity errors : sum local = 9.23433e-06, global = 9.77717e-08, cumulative = 1.2697e-06
+ExecutionTime = 302.27 s  ClockTime = 313 s  timeStepExecutionTime  = 13.73 s
+Courant Number mean: 0.00144178 max: 0.0141016
+deltaT = 3.48911e-05
+Time = 0.000730615
+
+ExeTime solve U = 0.01 s
+ExeTime - tOldPU = 0.08 s
+GAMGPCG:  Solving for p, Initial residual = 6.84068e-05, Final residual = 5.97402e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.39124e-05, Final residual = 5.0323e-08, No Iterations 3
+time step continuity errors : sum local = 9.69633e-06, global = 1.02731e-07, cumulative = 1.37243e-06
+ExecutionTime = 314.39 s  ClockTime = 325 s  timeStepExecutionTime  = 12.12 s
+
+         Umax = 0.000514811 m/s  Uavg = 5.42814e-05 m/s   DP = 1.02203 Pa
+
+
+Courant Number mean: 0.00151345 max: 0.0147973
+deltaT = 3.66357e-05
+Time = 0.00076725
+
+GAMGPCG:  Solving for p, Initial residual = 6.52347e-05, Final residual = 5.70594e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.32949e-05, Final residual = 4.80712e-08, No Iterations 3
+time step continuity errors : sum local = 1.01814e-05, global = 1.07938e-07, cumulative = 1.48037e-06
+ExecutionTime = 326.25 s  ClockTime = 338 s  timeStepExecutionTime  = 11.76 s
+Courant Number mean: 0.0015887 max: 0.0155278
+deltaT = 3.84675e-05
+Time = 0.000805718
+
+GAMGPCG:  Solving for p, Initial residual = 6.2212e-05, Final residual = 5.45058e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.27046e-05, Final residual = 4.5918e-08, No Iterations 3
+time step continuity errors : sum local = 1.06908e-05, global = 1.13406e-07, cumulative = 1.59378e-06
+ExecutionTime = 341.81 s  ClockTime = 354 s  timeStepExecutionTime  = 15.56 s
+Courant Number mean: 0.00166771 max: 0.0162948
+deltaT = 4.03908e-05
+Time = 0.000846109
+
+GAMGPCG:  Solving for p, Initial residual = 5.93317e-05, Final residual = 5.20731e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.21401e-05, Final residual = 4.38582e-08, No Iterations 3
+time step continuity errors : sum local = 1.12256e-05, global = 1.19148e-07, cumulative = 1.71293e-06
+ExecutionTime = 355.99 s  ClockTime = 368 s  timeStepExecutionTime  = 14.18 s
+Courant Number mean: 0.00175066 max: 0.0171001
+deltaT = 4.24104e-05
+Time = 0.000888519
+
+GAMGPCG:  Solving for p, Initial residual = 5.65869e-05, Final residual = 4.9755e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.16006e-05, Final residual = 4.18889e-08, No Iterations 3
+time step continuity errors : sum local = 1.17872e-05, global = 1.25177e-07, cumulative = 1.8381e-06
+ExecutionTime = 370.15 s  ClockTime = 383 s  timeStepExecutionTime  = 14.16 s
+Courant Number mean: 0.00183776 max: 0.0179457
+deltaT = 4.45309e-05
+Time = 0.00093305
+
+ExeTime solve U = 0.13 s
+ExeTime - tOldPU = 0.25 s
+GAMGPCG:  Solving for p, Initial residual = 5.39712e-05, Final residual = 4.75459e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.10847e-05, Final residual = 4.00054e-08, No Iterations 3
+time step continuity errors : sum local = 1.23768e-05, global = 1.31508e-07, cumulative = 1.96961e-06
+ExecutionTime = 385.65 s  ClockTime = 398 s  timeStepExecutionTime  = 15.5 s
+
+         Umax = 0.000513409 m/s  Uavg = 5.42259e-05 m/s   DP = 1.02189 Pa
+
+
+Courant Number mean: 0.00192921 max: 0.0188335
+deltaT = 4.67575e-05
+Time = 0.000979807
+
+GAMGPCG:  Solving for p, Initial residual = 5.14783e-05, Final residual = 4.54405e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.05917e-05, Final residual = 3.8205e-08, No Iterations 3
+time step continuity errors : sum local = 1.29959e-05, global = 1.38157e-07, cumulative = 2.10777e-06
+ExecutionTime = 397.56 s  ClockTime = 412 s  timeStepExecutionTime  = 11.72 s
+Courant Number mean: 0.00202524 max: 0.0197656
+deltaT = 4.90953e-05
+Time = 0.0010289
+
+GAMGPCG:  Solving for p, Initial residual = 4.91024e-05, Final residual = 4.34338e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.01205e-05, Final residual = 3.64835e-08, No Iterations 3
+time step continuity errors : sum local = 1.3646e-05, global = 1.45137e-07, cumulative = 2.25291e-06
+ExecutionTime = 409.27 s  ClockTime = 425 s  timeStepExecutionTime  = 11.71 s
+Courant Number mean: 0.00212606 max: 0.0207444
+deltaT = 5.15501e-05
+Time = 0.00108045
+
+GAMGPCG:  Solving for p, Initial residual = 4.68378e-05, Final residual = 4.15209e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 9.67011e-06, Final residual = 3.48382e-08, No Iterations 3
+time step continuity errors : sum local = 1.43285e-05, global = 1.52468e-07, cumulative = 2.40537e-06
+ExecutionTime = 420.85 s  ClockTime = 437 s  timeStepExecutionTime  = 11.58 s
+Courant Number mean: 0.00223192 max: 0.021772
+deltaT = 5.41276e-05
+Time = 0.00113458
+
+GAMGPCG:  Solving for p, Initial residual = 4.46795e-05, Final residual = 3.96973e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 9.23972e-06, Final residual = 3.32655e-08, No Iterations 3
+time step continuity errors : sum local = 1.50452e-05, global = 1.60165e-07, cumulative = 2.56554e-06
+ExecutionTime = 434.63 s  ClockTime = 451 s  timeStepExecutionTime  = 13.78 s
+Courant Number mean: 0.00234307 max: 0.022851
+deltaT = 5.6834e-05
+Time = 0.00119141
+
+ExeTime solve U = 0.02 s
+ExeTime - tOldPU = 0.09 s
+GAMGPCG:  Solving for p, Initial residual = 4.26224e-05, Final residual = 3.79592e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 8.82849e-06, Final residual = 3.17681e-08, No Iterations 3
+time step continuity errors : sum local = 1.57978e-05, global = 1.68247e-07, cumulative = 2.73379e-06
+ExecutionTime = 447.72 s  ClockTime = 464 s  timeStepExecutionTime  = 13.09 s
+
+         Umax = 0.000512291 m/s  Uavg = 5.41812e-05 m/s   DP = 1.02178 Pa
+
+
+Courant Number mean: 0.00245977 max: 0.0239838
+deltaT = 5.96757e-05
+Time = 0.00125109
+
+GAMGPCG:  Solving for p, Initial residual = 4.06616e-05, Final residual = 3.63011e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 8.43556e-06, Final residual = 3.03322e-08, No Iterations 3
+time step continuity errors : sum local = 1.65879e-05, global = 1.76734e-07, cumulative = 2.91052e-06
+ExecutionTime = 462.18 s  ClockTime = 479 s  timeStepExecutionTime  = 14.36 s
+Courant Number mean: 0.00258231 max: 0.0251733
+deltaT = 6.26595e-05
+Time = 0.00131375
+
+GAMGPCG:  Solving for p, Initial residual = 3.87927e-05, Final residual = 3.47201e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 8.06017e-06, Final residual = 2.89605e-08, No Iterations 3
+time step continuity errors : sum local = 1.74176e-05, global = 1.85645e-07, cumulative = 3.09617e-06
+ExecutionTime = 475.07 s  ClockTime = 492 s  timeStepExecutionTime  = 12.89 s
+Courant Number mean: 0.00271097 max: 0.0264223
+deltaT = 6.57924e-05
+Time = 0.00137954
+
+GAMGPCG:  Solving for p, Initial residual = 3.70114e-05, Final residual = 3.32125e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 7.70151e-06, Final residual = 2.76498e-08, No Iterations 3
+time step continuity errors : sum local = 1.82887e-05, global = 1.95003e-07, cumulative = 3.29117e-06
+ExecutionTime = 487.82 s  ClockTime = 506 s  timeStepExecutionTime  = 12.75 s
+Courant Number mean: 0.00284606 max: 0.0277336
+deltaT = 6.90821e-05
+Time = 0.00144862
+
+GAMGPCG:  Solving for p, Initial residual = 3.53134e-05, Final residual = 3.17749e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 7.35892e-06, Final residual = 2.63972e-08, No Iterations 3
+time step continuity errors : sum local = 1.92034e-05, global = 2.04828e-07, cumulative = 3.496e-06
+ExecutionTime = 500.65 s  ClockTime = 519 s  timeStepExecutionTime  = 12.83 s
+Courant Number mean: 0.0029879 max: 0.0291105
+deltaT = 7.25362e-05
+Time = 0.00152116
+
+ExeTime solve U = 0.03 s
+ExeTime - tOldPU = 0.1 s
+GAMGPCG:  Solving for p, Initial residual = 3.36948e-05, Final residual = 3.04033e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 7.03164e-06, Final residual = 2.52942e-08, No Iterations 3
+time step continuity errors : sum local = 2.01638e-05, global = 2.15146e-07, cumulative = 3.71114e-06
+ExecutionTime = 511.72 s  ClockTime = 531 s  timeStepExecutionTime  = 11.07 s
+
+         Umax = 0.0005114 m/s  Uavg = 5.41452e-05 m/s   DP = 1.02169 Pa
+
+
+Courant Number mean: 0.00313683 max: 0.0305562
+deltaT = 7.6163e-05
+Time = 0.00159732
+
+GAMGPCG:  Solving for p, Initial residual = 3.21519e-05, Final residual = 2.90948e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 6.71909e-06, Final residual = 2.41462e-08, No Iterations 3
+time step continuity errors : sum local = 2.11722e-05, global = 2.25979e-07, cumulative = 3.93712e-06
+ExecutionTime = 526.19 s  ClockTime = 547 s  timeStepExecutionTime  = 14.38 s
+Courant Number mean: 0.0032932 max: 0.0320741
+deltaT = 7.99711e-05
+Time = 0.00167729
+
+GAMGPCG:  Solving for p, Initial residual = 3.0681e-05, Final residual = 2.78463e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 6.42052e-06, Final residual = 2.30506e-08, No Iterations 3
+time step continuity errors : sum local = 2.22311e-05, global = 2.37355e-07, cumulative = 4.17448e-06
+ExecutionTime = 539.77 s  ClockTime = 560 s  timeStepExecutionTime  = 13.58 s
+Courant Number mean: 0.00345739 max: 0.0336679
+deltaT = 8e-05
+Time = 0.00175729
+
+GAMGPCG:  Solving for p, Initial residual = 1.81409e-05, Final residual = 1.67466e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 3.0679e-06, Final residual = 4.71335e-08, No Iterations 2
+time step continuity errors : sum local = 2.22384e-05, global = 2.37444e-07, cumulative = 4.41192e-06
+ExecutionTime = 552.37 s  ClockTime = 573 s  timeStepExecutionTime  = 12.6 s
+Courant Number mean: 0.00345818 max: 0.0336708
+deltaT = 8e-05
+Time = 0.00183729
+
+GAMGPCG:  Solving for p, Initial residual = 1.0942e-05, Final residual = 1.60495e-07, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 2.44608e-06, Final residual = 3.98439e-08, No Iterations 2
+time step continuity errors : sum local = 2.22374e-05, global = 2.37442e-07, cumulative = 4.64936e-06
+ExecutionTime = 564.43 s  ClockTime = 585 s  timeStepExecutionTime  = 12.06 s
+Courant Number mean: 0.00345774 max: 0.033662
+deltaT = 8e-05
+Time = 0.00191729
+
+ExeTime solve U = 0.02 s
+ExeTime - tOldPU = 0.1 s
+GAMGPCG:  Solving for p, Initial residual = 8.35464e-06, Final residual = 2.72872e-08, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 2.15507e-06, Final residual = 4.36339e-08, No Iterations 2
+time step continuity errors : sum local = 2.22364e-05, global = 2.37438e-07, cumulative = 4.8868e-06
+ExecutionTime = 576.59 s  ClockTime = 598 s  timeStepExecutionTime  = 12.16 s
+
+         Umax = 0.000510699 m/s  Uavg = 5.41155e-05 m/s   DP = 1.02166 Pa
+
+
+Courant Number mean: 0.00345732 max: 0.0336536
+deltaT = 8e-05
+Time = 0.00199729
+
+GAMGPCG:  Solving for p, Initial residual = 8.06568e-06, Final residual = 2.75537e-08, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 2.0701e-06, Final residual = 4.43589e-08, No Iterations 2
+time step continuity errors : sum local = 2.22352e-05, global = 2.37436e-07, cumulative = 5.12424e-06
+ExecutionTime = 591.21 s  ClockTime = 613 s  timeStepExecutionTime  = 14.52 s
+Courant Number mean: 0.00345691 max: 0.0336456
+deltaT = 8e-05
+Time = 0.00207729
+
+GAMGPCG:  Solving for p, Initial residual = 7.79692e-06, Final residual = 2.70021e-08, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 1.98956e-06, Final residual = 4.36397e-08, No Iterations 2
+time step continuity errors : sum local = 2.22341e-05, global = 2.37433e-07, cumulative = 5.36167e-06
+ExecutionTime = 607.51 s  ClockTime = 629 s  timeStepExecutionTime  = 16.3 s
+Courant Number mean: 0.00345652 max: 0.033638
+deltaT = 8e-05
+Time = 0.00215729
+
+GAMGPCG:  Solving for p, Initial residual = 7.52066e-06, Final residual = 2.63961e-08, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 1.91589e-06, Final residual = 4.27991e-08, No Iterations 2
+time step continuity errors : sum local = 2.2233e-05, global = 2.37431e-07, cumulative = 5.5991e-06
+ExecutionTime = 622.38 s  ClockTime = 644 s  timeStepExecutionTime  = 14.87 s
+Courant Number mean: 0.00345614 max: 0.0336307
+deltaT = 8e-05
+Time = 0.00223729
+
+GAMGPCG:  Solving for p, Initial residual = 7.2496e-06, Final residual = 2.54654e-08, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 1.84706e-06, Final residual = 4.12047e-08, No Iterations 2
+time step continuity errors : sum local = 2.2232e-05, global = 2.37428e-07, cumulative = 5.83653e-06
+ExecutionTime = 635.99 s  ClockTime = 658 s  timeStepExecutionTime  = 13.61 s
+Courant Number mean: 0.00345578 max: 0.0336238
+deltaT = 8e-05
+Time = 0.00231729
+
+ExeTime solve U = 0.12 s
+ExeTime - tOldPU = 0.25 s
+GAMGPCG:  Solving for p, Initial residual = 6.98707e-06, Final residual = 2.46039e-08, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 1.77997e-06, Final residual = 3.96789e-08, No Iterations 2
+time step continuity errors : sum local = 2.2231e-05, global = 2.37426e-07, cumulative = 6.07395e-06
+ExecutionTime = 649.41 s  ClockTime = 671 s  timeStepExecutionTime  = 13.42 s
+
+         Umax = 0.000510151 m/s  Uavg = 5.40908e-05 m/s   DP = 1.02165 Pa
+
+
+Courant Number mean: 0.00345543 max: 0.0336171
+deltaT = 8e-05
+Time = 0.00239729
+
+GAMGPCG:  Solving for p, Initial residual = 6.7335e-06, Final residual = 2.37844e-08, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 1.71487e-06, Final residual = 3.82009e-08, No Iterations 2
+time step continuity errors : sum local = 2.22301e-05, global = 2.37424e-07, cumulative = 6.31138e-06
+ExecutionTime = 664.39 s  ClockTime = 686 s  timeStepExecutionTime  = 14.87 s
+Courant Number mean: 0.0034551 max: 0.0336108
+deltaT = 8e-05
+Time = 0.00247729
+
+GAMGPCG:  Solving for p, Initial residual = 6.48843e-06, Final residual = 2.30083e-08, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 1.65193e-06, Final residual = 3.67784e-08, No Iterations 2
+time step continuity errors : sum local = 2.22292e-05, global = 2.37422e-07, cumulative = 6.5488e-06
+ExecutionTime = 677.72 s  ClockTime = 700 s  timeStepExecutionTime  = 13.33 s
+Courant Number mean: 0.00345478 max: 0.0336047
+deltaT = 8e-05
+Time = 0.00255729
+
+GAMGPCG:  Solving for p, Initial residual = 6.25188e-06, Final residual = 2.22573e-08, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 1.59123e-06, Final residual = 3.54009e-08, No Iterations 2
+time step continuity errors : sum local = 2.22283e-05, global = 2.3742e-07, cumulative = 6.78622e-06
+ExecutionTime = 690.03 s  ClockTime = 713 s  timeStepExecutionTime  = 12.31 s
+Courant Number mean: 0.00345447 max: 0.0335989
+deltaT = 8e-05
+Time = 0.00263729
+
+GAMGPCG:  Solving for p, Initial residual = 6.02381e-06, Final residual = 2.15392e-08, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 1.53277e-06, Final residual = 3.40723e-08, No Iterations 2
+time step continuity errors : sum local = 2.22274e-05, global = 2.37419e-07, cumulative = 7.02364e-06
+ExecutionTime = 704.79 s  ClockTime = 727 s  timeStepExecutionTime  = 14.76 s
+Courant Number mean: 0.00345417 max: 0.0335933
+deltaT = 8e-05
+Time = 0.00271729
+
+ExeTime solve U = 0 s
+ExeTime - tOldPU = 0.12 s
+GAMGPCG:  Solving for p, Initial residual = 5.80413e-06, Final residual = 2.0851e-08, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 1.47646e-06, Final residual = 3.27926e-08, No Iterations 2
+time step continuity errors : sum local = 2.22266e-05, global = 2.37418e-07, cumulative = 7.26106e-06
+ExecutionTime = 717.85 s  ClockTime = 741 s  timeStepExecutionTime  = 13.06 s
+
+         Umax = 0.000509714 m/s  Uavg = 5.40706e-05 m/s   DP = 1.02164 Pa
+
+
+Courant Number mean: 0.00345388 max: 0.033588
+deltaT = 8e-05
+Time = 0.00279729
+
+GAMGPCG:  Solving for p, Initial residual = 5.59262e-06, Final residual = 2.01921e-08, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 1.42227e-06, Final residual = 3.15598e-08, No Iterations 2
+time step continuity errors : sum local = 2.22258e-05, global = 2.37416e-07, cumulative = 7.49847e-06
+ExecutionTime = 731.49 s  ClockTime = 755 s  timeStepExecutionTime  = 13.49 s
+Courant Number mean: 0.00345361 max: 0.0335829
+deltaT = 8e-05
+Time = 0.00287729
+
+GAMGPCG:  Solving for p, Initial residual = 5.38902e-06, Final residual = 1.95614e-08, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 1.37013e-06, Final residual = 3.03743e-08, No Iterations 2
+time step continuity errors : sum local = 2.22251e-05, global = 2.37415e-07, cumulative = 7.73589e-06
+ExecutionTime = 745.96 s  ClockTime = 770 s  timeStepExecutionTime  = 14.47 s
+Courant Number mean: 0.00345334 max: 0.033578
+deltaT = 8e-05
+Time = 0.00295729
+
+GAMGPCG:  Solving for p, Initial residual = 5.19309e-06, Final residual = 1.89571e-08, No Iterations 3
+GAMGPCG:  Solving for p, Initial residual = 1.31997e-06, Final residual = 2.92309e-08, No Iterations 2
+time step continuity errors : sum local = 2.22244e-05, global = 2.37414e-07, cumulative = 7.9733e-06
+ExecutionTime = 757.51 s  ClockTime = 782 s  timeStepExecutionTime  = 11.55 s
+Courant Number mean: 0.00345309 max: 0.0335733
+deltaT = 8e-05
+Time = 0.00303729
+
+GAMGPCG:  Solving for p, Initial residual = 5.00459e-06, Final residual = 9.65193e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.341e-06, Final residual = 2.45595e-08, No Iterations 2
+time step continuity errors : sum local = 2.22237e-05, global = 2.37414e-07, cumulative = 8.21072e-06
+ExecutionTime = 769.2 s  ClockTime = 793 s  timeStepExecutionTime  = 11.69 s
+Courant Number mean: 0.00345284 max: 0.0335688
+deltaT = 8e-05
+Time = 0.00311729
+
+ExeTime solve U = 0.07 s
+ExeTime - tOldPU = 0.17 s
+GAMGPCG:  Solving for p, Initial residual = 4.83211e-06, Final residual = 9.20561e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.29907e-06, Final residual = 2.33457e-08, No Iterations 2
+time step continuity errors : sum local = 2.2223e-05, global = 2.37414e-07, cumulative = 8.44813e-06
+ExecutionTime = 781.22 s  ClockTime = 805 s  timeStepExecutionTime  = 12.02 s
+
+         Umax = 0.000509361 m/s  Uavg = 5.40542e-05 m/s   DP = 1.02163 Pa
+
+
+Courant Number mean: 0.00345261 max: 0.0335645
+deltaT = 8e-05
+Time = 0.00319729
+
+GAMGPCG:  Solving for p, Initial residual = 4.67291e-06, Final residual = 8.75536e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.26105e-06, Final residual = 2.21251e-08, No Iterations 2
+time step continuity errors : sum local = 2.22224e-05, global = 2.37413e-07, cumulative = 8.68554e-06
+ExecutionTime = 794.31 s  ClockTime = 819 s  timeStepExecutionTime  = 12.96 s
+Courant Number mean: 0.00345238 max: 0.0335604
+deltaT = 8e-05
+Time = 0.00327729
+
+GAMGPCG:  Solving for p, Initial residual = 4.5221e-06, Final residual = 8.33546e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.2247e-06, Final residual = 2.0969e-08, No Iterations 2
+time step continuity errors : sum local = 2.22218e-05, global = 2.37413e-07, cumulative = 8.92296e-06
+ExecutionTime = 806.8 s  ClockTime = 831 s  timeStepExecutionTime  = 12.49 s
+Courant Number mean: 0.00345216 max: 0.0335564
+deltaT = 8e-05
+Time = 0.00335729
+
+GAMGPCG:  Solving for p, Initial residual = 4.35826e-06, Final residual = 8.02525e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.17964e-06, Final residual = 2.02019e-08, No Iterations 2
+time step continuity errors : sum local = 2.22212e-05, global = 2.37412e-07, cumulative = 9.16037e-06
+ExecutionTime = 818.77 s  ClockTime = 843 s  timeStepExecutionTime  = 11.97 s
+Courant Number mean: 0.00345195 max: 0.0335526
+deltaT = 8e-05
+Time = 0.00343729
+
+GAMGPCG:  Solving for p, Initial residual = 4.20108e-06, Final residual = 7.72739e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.13655e-06, Final residual = 1.94598e-08, No Iterations 2
+time step continuity errors : sum local = 2.22206e-05, global = 2.37412e-07, cumulative = 9.39778e-06
+ExecutionTime = 829.6 s  ClockTime = 854 s  timeStepExecutionTime  = 10.83 s
+Courant Number mean: 0.00345175 max: 0.033549
+deltaT = 8e-05
+Time = 0.00351729
+
+ExeTime solve U = 0.04 s
+ExeTime - tOldPU = 0.11 s
+GAMGPCG:  Solving for p, Initial residual = 4.05031e-06, Final residual = 7.43932e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.09528e-06, Final residual = 1.8743e-08, No Iterations 2
+time step continuity errors : sum local = 2.22201e-05, global = 2.37412e-07, cumulative = 9.63519e-06
+ExecutionTime = 839.84 s  ClockTime = 865 s  timeStepExecutionTime  = 10.24 s
+
+         Umax = 0.000509077 m/s  Uavg = 5.40408e-05 m/s   DP = 1.02163 Pa
+
+
+Courant Number mean: 0.00345156 max: 0.0335455
+deltaT = 8e-05
+Time = 0.00359729
+
+GAMGPCG:  Solving for p, Initial residual = 3.90564e-06, Final residual = 7.16122e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.05581e-06, Final residual = 1.80485e-08, No Iterations 2
+time step continuity errors : sum local = 2.22196e-05, global = 2.37412e-07, cumulative = 9.8726e-06
+ExecutionTime = 849.89 s  ClockTime = 876 s  timeStepExecutionTime  = 9.89 s
+Courant Number mean: 0.00345137 max: 0.0335422
+deltaT = 8e-05
+Time = 0.00367729
+
+GAMGPCG:  Solving for p, Initial residual = 3.76642e-06, Final residual = 6.89687e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 1.01781e-06, Final residual = 1.73825e-08, No Iterations 2
+time step continuity errors : sum local = 2.22191e-05, global = 2.37412e-07, cumulative = 1.011e-05
+ExecutionTime = 861.6 s  ClockTime = 888 s  timeStepExecutionTime  = 11.71 s
+Courant Number mean: 0.00345119 max: 0.033539
+deltaT = 8e-05
+Time = 0.00375729
+
+GAMGPCG:  Solving for p, Initial residual = 3.63245e-06, Final residual = 6.64536e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 9.81268e-07, Final residual = 1.6743e-08, No Iterations 2
+time step continuity errors : sum local = 2.22186e-05, global = 2.37412e-07, cumulative = 1.03474e-05
+ExecutionTime = 873.64 s  ClockTime = 900 s  timeStepExecutionTime  = 12.04 s
+Courant Number mean: 0.00345102 max: 0.0335359
+deltaT = 8e-05
+Time = 0.00383729
+
+GAMGPCG:  Solving for p, Initial residual = 3.50354e-06, Final residual = 6.40593e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 9.46107e-07, Final residual = 1.61293e-08, No Iterations 2
+time step continuity errors : sum local = 2.22181e-05, global = 2.37412e-07, cumulative = 1.05848e-05
+ExecutionTime = 883.06 s  ClockTime = 910 s  timeStepExecutionTime  = 9.42 s
+Courant Number mean: 0.00345085 max: 0.033533
+deltaT = 8e-05
+Time = 0.00391729
+
+ExeTime solve U = 0.02 s
+ExeTime - tOldPU = 0.11 s
+GAMGPCG:  Solving for p, Initial residual = 3.37951e-06, Final residual = 6.1781e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 9.12297e-07, Final residual = 1.554e-08, No Iterations 2
+time step continuity errors : sum local = 2.22177e-05, global = 2.37413e-07, cumulative = 1.08223e-05
+ExecutionTime = 894.19 s  ClockTime = 922 s  timeStepExecutionTime  = 11.13 s
+
+         Umax = 0.000508846 m/s  Uavg = 5.403e-05 m/s   DP = 1.02162 Pa
+
+
+Courant Number mean: 0.00345069 max: 0.0335302
+deltaT = 8e-05
+Time = 0.00399729
+
+GAMGPCG:  Solving for p, Initial residual = 3.26015e-06, Final residual = 5.96158e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 8.79769e-07, Final residual = 1.49743e-08, No Iterations 2
+time step continuity errors : sum local = 2.22173e-05, global = 2.37413e-07, cumulative = 1.10597e-05
+ExecutionTime = 908.32 s  ClockTime = 936 s  timeStepExecutionTime  = 13.98 s
+Courant Number mean: 0.00345053 max: 0.0335275
+deltaT = 8e-05
+Time = 0.00407729
+
+GAMGPCG:  Solving for p, Initial residual = 3.14529e-06, Final residual = 5.75622e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 8.48485e-07, Final residual = 1.44312e-08, No Iterations 2
+time step continuity errors : sum local = 2.22169e-05, global = 2.37414e-07, cumulative = 1.12971e-05
+ExecutionTime = 918.16 s  ClockTime = 947 s  timeStepExecutionTime  = 9.84 s
+Courant Number mean: 0.00345039 max: 0.0335249
+deltaT = 8e-05
+Time = 0.00415729
+
+GAMGPCG:  Solving for p, Initial residual = 3.03474e-06, Final residual = 5.56186e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 8.18387e-07, Final residual = 1.39097e-08, No Iterations 2
+time step continuity errors : sum local = 2.22165e-05, global = 2.37414e-07, cumulative = 1.15345e-05
+ExecutionTime = 929.26 s  ClockTime = 960 s  timeStepExecutionTime  = 11.1 s
+Courant Number mean: 0.00345024 max: 0.0335224
+deltaT = 8e-05
+Time = 0.00423729
+
+GAMGPCG:  Solving for p, Initial residual = 2.92833e-06, Final residual = 5.37989e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 7.89434e-07, Final residual = 1.34048e-08, No Iterations 2
+time step continuity errors : sum local = 2.22161e-05, global = 2.37415e-07, cumulative = 1.17719e-05
+ExecutionTime = 940.97 s  ClockTime = 971 s  timeStepExecutionTime  = 11.71 s
+Courant Number mean: 0.0034501 max: 0.03352
+deltaT = 8e-05
+Time = 0.00431729
+
+ExeTime solve U = 0.03 s
+ExeTime - tOldPU = 0.13 s
+GAMGPCG:  Solving for p, Initial residual = 2.82591e-06, Final residual = 5.20727e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 7.61575e-07, Final residual = 1.29238e-08, No Iterations 2
+time step continuity errors : sum local = 2.22157e-05, global = 2.37415e-07, cumulative = 1.20093e-05
+ExecutionTime = 953.97 s  ClockTime = 984 s  timeStepExecutionTime  = 13 s
+
+         Umax = 0.00050866 m/s  Uavg = 5.40211e-05 m/s   DP = 1.02162 Pa
+
+
+Courant Number mean: 0.00344997 max: 0.0335178
+deltaT = 8e-05
+Time = 0.00439729
+
+GAMGPCG:  Solving for p, Initial residual = 2.7273e-06, Final residual = 5.04507e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 7.34773e-07, Final residual = 1.24618e-08, No Iterations 2
+time step continuity errors : sum local = 2.22154e-05, global = 2.37416e-07, cumulative = 1.22467e-05
+ExecutionTime = 965.41 s  ClockTime = 996 s  timeStepExecutionTime  = 11.35 s
+Courant Number mean: 0.00344984 max: 0.0335156
+deltaT = 8e-05
+Time = 0.00447729
+
+GAMGPCG:  Solving for p, Initial residual = 2.63237e-06, Final residual = 4.89471e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 7.08983e-07, Final residual = 1.20181e-08, No Iterations 2
+time step continuity errors : sum local = 2.2215e-05, global = 2.37417e-07, cumulative = 1.24842e-05
+ExecutionTime = 976.52 s  ClockTime = 1007 s  timeStepExecutionTime  = 11.11 s
+Courant Number mean: 0.00344972 max: 0.0335135
+deltaT = 8e-05
+Time = 0.00455729
+
+GAMGPCG:  Solving for p, Initial residual = 2.54096e-06, Final residual = 4.75319e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 6.84164e-07, Final residual = 9.872e-08, No Iterations 1
+time step continuity errors : sum local = 2.22147e-05, global = 2.37417e-07, cumulative = 1.27216e-05
+ExecutionTime = 984.81 s  ClockTime = 1015 s  timeStepExecutionTime  = 8.29 s
+Courant Number mean: 0.0034496 max: 0.0335114
+deltaT = 8e-05
+Time = 0.00463729
+
+GAMGPCG:  Solving for p, Initial residual = 2.46177e-06, Final residual = 4.52962e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 6.70027e-07, Final residual = 8.37153e-08, No Iterations 1
+time step continuity errors : sum local = 2.22144e-05, global = 2.37418e-07, cumulative = 1.2959e-05
+ExecutionTime = 993.02 s  ClockTime = 1024 s  timeStepExecutionTime  = 8.21 s
+Courant Number mean: 0.00344949 max: 0.0335095
+deltaT = 8e-05
+Time = 0.00471729
+
+ExeTime solve U = 0.03 s
+ExeTime - tOldPU = 0.12 s
+GAMGPCG:  Solving for p, Initial residual = 2.37805e-06, Final residual = 4.37851e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 6.45166e-07, Final residual = 7.86011e-08, No Iterations 1
+time step continuity errors : sum local = 2.22141e-05, global = 2.37419e-07, cumulative = 1.31964e-05
+ExecutionTime = 1002.11 s  ClockTime = 1033 s  timeStepExecutionTime  = 9.09 s
+
+         Umax = 0.000508508 m/s  Uavg = 5.40139e-05 m/s   DP = 1.02162 Pa
+
+
+Courant Number mean: 0.00344938 max: 0.0335077
+deltaT = 8e-05
+Time = 0.00479729
+
+GAMGPCG:  Solving for p, Initial residual = 2.30325e-06, Final residual = 4.22544e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 6.25738e-07, Final residual = 7.33893e-08, No Iterations 1
+time step continuity errors : sum local = 2.22138e-05, global = 2.3742e-07, cumulative = 1.34338e-05
+ExecutionTime = 1012.82 s  ClockTime = 1044 s  timeStepExecutionTime  = 10.55 s
+Courant Number mean: 0.00344927 max: 0.0335059
+deltaT = 8e-05
+Time = 0.00487729
+
+GAMGPCG:  Solving for p, Initial residual = 2.22108e-06, Final residual = 4.12532e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 6.00797e-07, Final residual = 7.14103e-08, No Iterations 1
+time step continuity errors : sum local = 2.22136e-05, global = 2.3742e-07, cumulative = 1.36713e-05
+ExecutionTime = 1021.56 s  ClockTime = 1053 s  timeStepExecutionTime  = 8.74 s
+Courant Number mean: 0.00344917 max: 0.0335042
+deltaT = 8e-05
+Time = 0.00495729
+
+GAMGPCG:  Solving for p, Initial residual = 2.14495e-06, Final residual = 4.02048e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 5.79927e-07, Final residual = 6.89484e-08, No Iterations 1
+time step continuity errors : sum local = 2.22133e-05, global = 2.37421e-07, cumulative = 1.39087e-05
+ExecutionTime = 1030.69 s  ClockTime = 1062 s  timeStepExecutionTime  = 9.13 s
+Courant Number mean: 0.00344907 max: 0.0335025
+deltaT = 8e-05
+Time = 0.00503729
+
+GAMGPCG:  Solving for p, Initial residual = 2.0715e-06, Final residual = 3.92121e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 5.59744e-07, Final residual = 6.66297e-08, No Iterations 1
+time step continuity errors : sum local = 2.2213e-05, global = 2.37422e-07, cumulative = 1.41461e-05
+ExecutionTime = 1039.2 s  ClockTime = 1071 s  timeStepExecutionTime  = 8.51 s
+Courant Number mean: 0.00344897 max: 0.033501
+deltaT = 8e-05
+Time = 0.00511729
+
+ExeTime solve U = 0.03 s
+ExeTime - tOldPU = 0.09 s
+GAMGPCG:  Solving for p, Initial residual = 2.00117e-06, Final residual = 3.82447e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 5.40715e-07, Final residual = 6.43109e-08, No Iterations 1
+time step continuity errors : sum local = 2.22128e-05, global = 2.37423e-07, cumulative = 1.43835e-05
+ExecutionTime = 1048.31 s  ClockTime = 1080 s  timeStepExecutionTime  = 9.11 s
+
+         Umax = 0.000508385 m/s  Uavg = 5.4008e-05 m/s   DP = 1.02161 Pa
+
+
+Courant Number mean: 0.00344888 max: 0.0334994
+deltaT = 8e-05
+Time = 0.00519729
+
+GAMGPCG:  Solving for p, Initial residual = 1.93315e-06, Final residual = 3.73241e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 5.22187e-07, Final residual = 6.21209e-08, No Iterations 1
+time step continuity errors : sum local = 2.22126e-05, global = 2.37424e-07, cumulative = 1.46209e-05
+ExecutionTime = 1057.27 s  ClockTime = 1089 s  timeStepExecutionTime  = 8.83 s
+Courant Number mean: 0.00344879 max: 0.033498
+deltaT = 8e-05
+Time = 0.00527729
+
+GAMGPCG:  Solving for p, Initial residual = 1.86764e-06, Final residual = 3.64363e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 5.04374e-07, Final residual = 6.00011e-08, No Iterations 1
+time step continuity errors : sum local = 2.22123e-05, global = 2.37425e-07, cumulative = 1.48584e-05
+ExecutionTime = 1065.66 s  ClockTime = 1098 s  timeStepExecutionTime  = 8.39 s
+Courant Number mean: 0.00344871 max: 0.0334966
+deltaT = 8e-05
+Time = 0.00535729
+
+GAMGPCG:  Solving for p, Initial residual = 1.80448e-06, Final residual = 3.5583e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 4.87193e-07, Final residual = 5.79632e-08, No Iterations 1
+time step continuity errors : sum local = 2.22121e-05, global = 2.37426e-07, cumulative = 1.50958e-05
+ExecutionTime = 1073.43 s  ClockTime = 1106 s  timeStepExecutionTime  = 7.77 s
+Courant Number mean: 0.00344863 max: 0.0334953
+deltaT = 8e-05
+Time = 0.00543729
+
+GAMGPCG:  Solving for p, Initial residual = 1.74363e-06, Final residual = 3.47601e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 4.70656e-07, Final residual = 5.59983e-08, No Iterations 1
+time step continuity errors : sum local = 2.22119e-05, global = 2.37427e-07, cumulative = 1.53332e-05
+ExecutionTime = 1081.94 s  ClockTime = 1115 s  timeStepExecutionTime  = 8.51 s
+Courant Number mean: 0.00344855 max: 0.033494
+deltaT = 8e-05
+Time = 0.00551729
+
+ExeTime solve U = 0.02 s
+ExeTime - tOldPU = 0.1 s
+GAMGPCG:  Solving for p, Initial residual = 1.68498e-06, Final residual = 3.39671e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 4.54717e-07, Final residual = 5.41062e-08, No Iterations 1
+time step continuity errors : sum local = 2.22117e-05, global = 2.37428e-07, cumulative = 1.55706e-05
+ExecutionTime = 1090.03 s  ClockTime = 1123 s  timeStepExecutionTime  = 8.09 s
+
+         Umax = 0.000508284 m/s  Uavg = 5.40032e-05 m/s   DP = 1.02161 Pa
+
+
+Courant Number mean: 0.00344847 max: 0.0334928
+deltaT = 8e-05
+Time = 0.00559729
+
+GAMGPCG:  Solving for p, Initial residual = 1.62845e-06, Final residual = 3.32012e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 4.39364e-07, Final residual = 5.2284e-08, No Iterations 1
+time step continuity errors : sum local = 2.22115e-05, global = 2.37429e-07, cumulative = 1.58081e-05
+ExecutionTime = 1099.2 s  ClockTime = 1133 s  timeStepExecutionTime  = 9.02 s
+Courant Number mean: 0.0034484 max: 0.0334916
+deltaT = 8e-05
+Time = 0.00567729
+
+GAMGPCG:  Solving for p, Initial residual = 1.57396e-06, Final residual = 3.24609e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 4.24569e-07, Final residual = 5.05277e-08, No Iterations 1
+time step continuity errors : sum local = 2.22113e-05, global = 2.3743e-07, cumulative = 1.60455e-05
+ExecutionTime = 1108.78 s  ClockTime = 1142 s  timeStepExecutionTime  = 9.58 s
+Courant Number mean: 0.00344832 max: 0.0334904
+deltaT = 8e-05
+Time = 0.00575729
+
+GAMGPCG:  Solving for p, Initial residual = 1.52144e-06, Final residual = 3.17444e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 4.10314e-07, Final residual = 4.88359e-08, No Iterations 1
+time step continuity errors : sum local = 2.22112e-05, global = 2.37431e-07, cumulative = 1.62829e-05
+ExecutionTime = 1118.13 s  ClockTime = 1152 s  timeStepExecutionTime  = 9.35 s
+Courant Number mean: 0.00344826 max: 0.0334894
+deltaT = 8e-05
+Time = 0.00583729
+
+GAMGPCG:  Solving for p, Initial residual = 1.4708e-06, Final residual = 3.10499e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 3.96575e-07, Final residual = 4.72044e-08, No Iterations 1
+time step continuity errors : sum local = 2.2211e-05, global = 2.37432e-07, cumulative = 1.65204e-05
+ExecutionTime = 1127.23 s  ClockTime = 1161 s  timeStepExecutionTime  = 9.1 s
+Courant Number mean: 0.00344819 max: 0.0334883
+deltaT = 8e-05
+Time = 0.00591729
+
+ExeTime solve U = 0.13 s
+ExeTime - tOldPU = 0.28 s
+GAMGPCG:  Solving for p, Initial residual = 1.42197e-06, Final residual = 3.03759e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 3.83335e-07, Final residual = 4.56322e-08, No Iterations 1
+time step continuity errors : sum local = 2.22108e-05, global = 2.37433e-07, cumulative = 1.67578e-05
+ExecutionTime = 1136.22 s  ClockTime = 1170 s  timeStepExecutionTime  = 8.99 s
+
+         Umax = 0.000508202 m/s  Uavg = 5.39993e-05 m/s   DP = 1.02161 Pa
+
+
+Courant Number mean: 0.00344812 max: 0.0334873
+deltaT = 8e-05
+Time = 0.00599729
+
+GAMGPCG:  Solving for p, Initial residual = 1.3749e-06, Final residual = 2.97212e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 3.70573e-07, Final residual = 4.41156e-08, No Iterations 1
+time step continuity errors : sum local = 2.22107e-05, global = 2.37434e-07, cumulative = 1.69952e-05
+ExecutionTime = 1144.7 s  ClockTime = 1178 s  timeStepExecutionTime  = 8.37 s
+Courant Number mean: 0.00344806 max: 0.0334863
+deltaT = 8e-05
+Time = 0.00607729
+
+GAMGPCG:  Solving for p, Initial residual = 1.32951e-06, Final residual = 2.90845e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 3.58272e-07, Final residual = 4.26533e-08, No Iterations 1
+time step continuity errors : sum local = 2.22105e-05, global = 2.37435e-07, cumulative = 1.72327e-05
+ExecutionTime = 1152.67 s  ClockTime = 1186 s  timeStepExecutionTime  = 7.97 s
+Courant Number mean: 0.003448 max: 0.0334854
+deltaT = 8e-05
+Time = 0.00615729
+
+GAMGPCG:  Solving for p, Initial residual = 1.28574e-06, Final residual = 2.8465e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 3.46415e-07, Final residual = 4.12421e-08, No Iterations 1
+time step continuity errors : sum local = 2.22104e-05, global = 2.37436e-07, cumulative = 1.74701e-05
+ExecutionTime = 1160.19 s  ClockTime = 1196 s  timeStepExecutionTime  = 7.52 s
+Courant Number mean: 0.00344795 max: 0.0334845
+deltaT = 8e-05
+Time = 0.00623729
+
+GAMGPCG:  Solving for p, Initial residual = 1.24353e-06, Final residual = 2.78614e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 3.34983e-07, Final residual = 3.98809e-08, No Iterations 1
+time step continuity errors : sum local = 2.22102e-05, global = 2.37437e-07, cumulative = 1.77075e-05
+ExecutionTime = 1169.37 s  ClockTime = 1205 s  timeStepExecutionTime  = 9.18 s
+Courant Number mean: 0.00344789 max: 0.0334837
+deltaT = 8e-05
+Time = 0.00631729
+
+ExeTime solve U = 0.06 s
+ExeTime - tOldPU = 0.17 s
+GAMGPCG:  Solving for p, Initial residual = 1.20282e-06, Final residual = 2.72726e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 3.2396e-07, Final residual = 3.85668e-08, No Iterations 1
+time step continuity errors : sum local = 2.22101e-05, global = 2.37438e-07, cumulative = 1.7945e-05
+ExecutionTime = 1179.04 s  ClockTime = 1214 s  timeStepExecutionTime  = 9.67 s
+
+         Umax = 0.000508135 m/s  Uavg = 5.39961e-05 m/s   DP = 1.02161 Pa
+
+
+Courant Number mean: 0.00344784 max: 0.0334828
+deltaT = 8e-05
+Time = 0.00639729
+
+GAMGPCG:  Solving for p, Initial residual = 1.16356e-06, Final residual = 2.66978e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 3.13332e-07, Final residual = 3.72986e-08, No Iterations 1
+time step continuity errors : sum local = 2.221e-05, global = 2.37439e-07, cumulative = 1.81824e-05
+ExecutionTime = 1187.46 s  ClockTime = 1223 s  timeStepExecutionTime  = 8.32 s
+Courant Number mean: 0.00344778 max: 0.0334821
+deltaT = 8e-05
+Time = 0.00647729
+
+GAMGPCG:  Solving for p, Initial residual = 1.12568e-06, Final residual = 2.61363e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 3.03081e-07, Final residual = 3.60738e-08, No Iterations 1
+time step continuity errors : sum local = 2.22098e-05, global = 2.3744e-07, cumulative = 1.84199e-05
+ExecutionTime = 1195.81 s  ClockTime = 1232 s  timeStepExecutionTime  = 8.35 s
+Courant Number mean: 0.00344773 max: 0.0334813
+deltaT = 8e-05
+Time = 0.00655729
+
+GAMGPCG:  Solving for p, Initial residual = 1.08914e-06, Final residual = 2.55871e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 2.93195e-07, Final residual = 3.48912e-08, No Iterations 1
+time step continuity errors : sum local = 2.22097e-05, global = 2.37441e-07, cumulative = 1.86573e-05
+ExecutionTime = 1204.33 s  ClockTime = 1240 s  timeStepExecutionTime  = 8.52 s
+Courant Number mean: 0.00344769 max: 0.0334806
+deltaT = 8e-05
+Time = 0.00663729
+
+GAMGPCG:  Solving for p, Initial residual = 1.05389e-06, Final residual = 2.50497e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 2.83659e-07, Final residual = 3.37487e-08, No Iterations 1
+time step continuity errors : sum local = 2.22096e-05, global = 2.37442e-07, cumulative = 1.88947e-05
+ExecutionTime = 1211.49 s  ClockTime = 1250 s  timeStepExecutionTime  = 7.16 s
+Courant Number mean: 0.00344764 max: 0.0334799
+deltaT = 8e-05
+Time = 0.00671729
+
+ExeTime solve U = 0.03 s
+ExeTime - tOldPU = 0.1 s
+GAMGPCG:  Solving for p, Initial residual = 1.01988e-06, Final residual = 2.45233e-08, No Iterations 2
+GAMGPCG:  Solving for p, Initial residual = 2.7446e-07, Final residual = 3.2645e-08, No Iterations 1
+time step continuity errors : sum local = 2.22095e-05, global = 2.37444e-07, cumulative = 1.91322e-05
+ExecutionTime = 1221.11 s  ClockTime = 1259 s  timeStepExecutionTime  = 9.62 s
+
+         Umax = 0.000508081 m/s  Uavg = 5.39935e-05 m/s   DP = 1.02161 Pa
+
+
+End
+
+Finalising parallel run

@@ -1,0 +1,86 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.3.0-f5222ca19ce6
+Exec   : renumberMesh -parallel -overwrite
+Date   : Aug 27 2016
+Time   : 16:31:36
+Host   : "ese-tesla3"
+PID    : 9424
+Case   : /data2/Lukas/images/beadpack_small/beadpack/beadpack-1-X
+nProcs : 32
+Slaves : 
+31
+(
+"ese-tesla3.9425"
+"ese-tesla3.9426"
+"ese-tesla3.9427"
+"ese-tesla3.9428"
+"ese-tesla3.9429"
+"ese-tesla3.9430"
+"ese-tesla3.9431"
+"ese-tesla3.9432"
+"ese-tesla3.9433"
+"ese-tesla3.9434"
+"ese-tesla3.9435"
+"ese-tesla3.9436"
+"ese-tesla3.9437"
+"ese-tesla3.9438"
+"ese-tesla3.9439"
+"ese-tesla3.9440"
+"ese-tesla3.9441"
+"ese-tesla3.9442"
+"ese-tesla3.9443"
+"ese-tesla3.9444"
+"ese-tesla3.9445"
+"ese-tesla3.9446"
+"ese-tesla3.9447"
+"ese-tesla3.9448"
+"ese-tesla3.9449"
+"ese-tesla3.9450"
+"ese-tesla3.9451"
+"ese-tesla3.9452"
+"ese-tesla3.9453"
+"ese-tesla3.9454"
+"ese-tesla3.9455"
+)
+
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Mesh size: 330370
+Before renumbering :
+    band           : 10638
+    profile        : 1.36221e+08
+
+Using default renumberMethod.
+
+Selecting renumberMethod CuthillMcKee
+
+Reading volScalarField p
+Reading volVectorField U
+
+After renumbering :
+    band           : 449
+    profile        : 7.29538e+07
+
+Writing mesh to "constant"
+
+End.
+
+Finalising parallel run

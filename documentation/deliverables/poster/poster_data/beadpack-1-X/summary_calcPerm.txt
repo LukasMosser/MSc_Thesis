@@ -1,0 +1,1 @@
+beadpack-1-X/processor0	K_x= 3.40797e-12 m^2 		effPorosity= 0.33037 		DarcyVelocity= 1.70399e-05 m/s 		DelP= 1 Pa 		K: 3.40797e-12 m^2 			K=( 3.40797e-12  0  0 ) Pmax - Pmin 1.02161 Umax 0.000508081		 effPorosity = V_pore / (L_x*L_y*L_z) = 2.64296e-12 /  (0.0002*0.0002*0.0002) = 0.33037		 Re = rho*VDarcy*sqrt(K)/mu = 1000 * 1.70399e-05 * sqrt(3.40797e-12) / 0.001 ) = 3.14568e-05

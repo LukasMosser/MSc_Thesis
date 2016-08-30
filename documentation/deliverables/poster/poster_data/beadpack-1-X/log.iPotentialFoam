@@ -1,0 +1,292 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.3.0-f5222ca19ce6
+Exec   : iPotentialFoam -parallel
+Date   : Aug 27 2016
+Time   : 16:31:39
+Host   : "ese-tesla3"
+PID    : 9469
+Case   : /data2/Lukas/images/beadpack_small/beadpack/beadpack-1-X
+nProcs : 32
+Slaves : 
+31
+(
+"ese-tesla3.9470"
+"ese-tesla3.9471"
+"ese-tesla3.9472"
+"ese-tesla3.9473"
+"ese-tesla3.9474"
+"ese-tesla3.9475"
+"ese-tesla3.9476"
+"ese-tesla3.9477"
+"ese-tesla3.9481"
+"ese-tesla3.9482"
+"ese-tesla3.9483"
+"ese-tesla3.9484"
+"ese-tesla3.9485"
+"ese-tesla3.9486"
+"ese-tesla3.9487"
+"ese-tesla3.9488"
+"ese-tesla3.9489"
+"ese-tesla3.9490"
+"ese-tesla3.9491"
+"ese-tesla3.9492"
+"ese-tesla3.9493"
+"ese-tesla3.9494"
+"ese-tesla3.9495"
+"ese-tesla3.9496"
+"ese-tesla3.9497"
+"ese-tesla3.9498"
+"ese-tesla3.9499"
+"ese-tesla3.9500"
+"ese-tesla3.9501"
+"ese-tesla3.9502"
+"ese-tesla3.9503"
+)
+
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+PIMPLE: Operating solver in PISO mode
+
+Reading field U
+
+Reading field p
+
+Reading/calculating face flux field phi
+
+Reading transportProperties
+
+
+Reading g
+Courant Number mean: 0 max: 0
+
+Starting time loop
+
+min(p): min(p) [1 -1 -2 0 0 0 0] 0max(p): max(p) [1 -1 -2 0 0 0 0] 1
+250
+
+
+GAMGPCG:  Solving for p, Initial residual = 1, Final residual = 0.00673112, No Iterations 1
+GAMGPCG:  Solving for p, Initial residual = 0.00350021, Final residual = 2.02735e-05, No Iterations 3
+DILUPBiCG:  Solving for Ux, Initial residual = 1, Final residual = 0.000858095, No Iterations 31
+DILUPBiCG:  Solving for Uy, Initial residual = 1, Final residual = 0.00097684, No Iterations 30
+DILUPBiCG:  Solving for Uz, Initial residual = 1, Final residual = 0.00093927, No Iterations 29
+DILUPBiCG:  Solving for Ux, Initial residual = 6.45188e-05, Final residual = 6.20309e-08, No Iterations 33
+DILUPBiCG:  Solving for Uy, Initial residual = 0.000309652, Final residual = 2.04147e-07, No Iterations 35
+DILUPBiCG:  Solving for Uz, Initial residual = 0.000359278, Final residual = 2.5024e-07, No Iterations 35
+
+         Umax = 0.000528662 m/s  Uavg = 7.33084e-05 m/s   DP = 1 Pa
+
+
+Grainwalls 0.001 - 
+Grainwalls 0.00105324 - 
+Bottom 0.001 - 
+Bottom 0.0010606 - 
+Top 0.001 - 
+Top 0.00105861 - 
+Back 0.001 - 
+Back 0.00107055 - 
+Front 0.001 - 
+Front 0.00105683 - 
+DILUPBiCG:  Solving for Ux, Initial residual = 0.00301332, Final residual = 2.35335e-06, No Iterations 24
+DILUPBiCG:  Solving for Uy, Initial residual = 0.0114816, Final residual = 1.11571e-05, No Iterations 20
+DILUPBiCG:  Solving for Uz, Initial residual = 0.0134215, Final residual = 1.24003e-05, No Iterations 21
+
+         Umax = 0.000526889 m/s  Uavg = 7.28625e-05 m/s   DP = 1 Pa
+
+
+
+
+
+max(div(phi)) [0 0 -1 0 0 0 0] 42.9661
+
+Grainwalls 0.001 - 
+Grainwalls 0.00106048 - 
+Bottom 0.001 - 
+Bottom 0.00106795 - 
+Top 0.001 - 
+Top 0.00106504 - 
+Back 0.001 - 
+Back 0.00108013 - 
+Front 0.001 - 
+Front 0.0010637 - 
+GAMGPCG:  Solving for p, Initial residual = 0.0296448, Final residual = 0.000285916, No Iterations 3
+
+         Umax = 0.00052476 m/s  Uavg = 7.18358e-05 m/s   DP = 2.09547 Pa
+
+
+Grainwalls 0.001 - 
+Grainwalls 0.00117018 - 
+Bottom 0.001 - 
+Bottom 0.00131898 - 
+Top 0.001 - 
+Top 0.00117957 - 
+Back 0.001 - 
+Back 0.00125601 - 
+Front 0.001 - 
+Front 0.00127126 - 
+GAMGPCG:  Solving for p, Initial residual = 0.0438689, Final residual = 0.000419013, No Iterations 3
+
+         Umax = 0.000519309 m/s  Uavg = 6.92582e-05 m/s   DP = 4.53502 Pa
+
+
+Grainwalls 0.001 - 
+Grainwalls 0.00125963 - 
+Bottom 0.001 - 
+Bottom 0.00130179 - 
+Top 0.001 - 
+Top 0.00132229 - 
+Back 0.001 - 
+Back 0.00134791 - 
+Front 0.001 - 
+Front 0.00161798 - 
+GAMGPCG:  Solving for p, Initial residual = 0.0272367, Final residual = 0.000239999, No Iterations 3
+
+         Umax = 0.000518495 m/s  Uavg = 6.59007e-05 m/s   DP = 6.05527 Pa
+
+
+Grainwalls 0.001 - 
+Grainwalls 0.00128483 - 
+Bottom 0.001 - 
+Bottom 0.00126137 - 
+Top 0.001 - 
+Top 0.00141551 - 
+Back 0.001 - 
+Back 0.00134616 - 
+Front 0.001 - 
+Front 0.00155964 - 
+GAMGPCG:  Solving for p, Initial residual = 0.0290139, Final residual = 0.000213575, No Iterations 3
+
+         Umax = 0.000567903 m/s  Uavg = 6.33744e-05 m/s   DP = 4.81764 Pa
+
+
+Grainwalls 0.001 - 
+Grainwalls 0.00123178 - 
+Bottom 0.001 - 
+Bottom 0.00118485 - 
+Top 0.001 - 
+Top 0.00125519 - 
+Back 0.001 - 
+Back 0.00124017 - 
+Front 0.001 - 
+Front 0.00133681 - 
+GAMGPCG:  Solving for p, Initial residual = 0.054647, Final residual = 0.00050356, No Iterations 3
+
+         Umax = 0.000587727 m/s  Uavg = 6.25687e-05 m/s   DP = 1.97066 Pa
+
+
+Grainwalls 0.001 - 
+Grainwalls 0.00112498 - 
+Bottom 0.001 - 
+Bottom 0.00113225 - 
+Top 0.001 - 
+Top 0.0011339 - 
+Back 0.001 - 
+Back 0.00114543 - 
+Front 0.001 - 
+Front 0.00116442 - 
+GAMGPCG:  Solving for p, Initial residual = 0.0322191, Final residual = 0.000313937, No Iterations 3
+
+         Umax = 0.000587453 m/s  Uavg = 6.28449e-05 m/s   DP = 1.14619 Pa
+
+
+Grainwalls 0.001 - 
+Grainwalls 0.0011267 - 
+Bottom 0.001 - 
+Bottom 0.00120164 - 
+Top 0.001 - 
+Top 0.00123279 - 
+Back 0.001 - 
+Back 0.00125186 - 
+Front 0.001 - 
+Front 0.00133411 - 
+GAMGPCG:  Solving for p, Initial residual = 0.0137357, Final residual = 6.1404e-05, No Iterations 3
+
+         Umax = 0.000588513 m/s  Uavg = 6.29562e-05 m/s   DP = 1.04401 Pa
+
+
+Grainwalls 0.001 - 
+Grainwalls 0.00110795 - 
+Bottom 0.001 - 
+Bottom 0.00118331 - 
+Top 0.001 - 
+Top 0.00114949 - 
+Back 0.001 - 
+Back 0.00120188 - 
+Front 0.001 - 
+Front 0.0012079 - 
+GAMGPCG:  Solving for p, Initial residual = 0.0140189, Final residual = 0.000117774, No Iterations 3
+
+         Umax = 0.000595486 m/s  Uavg = 6.27084e-05 m/s   DP = 1.04267 Pa
+
+
+Grainwalls 0.001 - 
+Grainwalls 0.00109233 - 
+Bottom 0.001 - 
+Bottom 0.00112755 - 
+Top 0.001 - 
+Top 0.0010866 - 
+Back 0.001 - 
+Back 0.00111296 - 
+Front 0.001 - 
+Front 0.00110692 - 
+GAMGPCG:  Solving for p, Initial residual = 0.0023557, Final residual = 8.56105e-06, No Iterations 3
+
+         Umax = 0.000601817 m/s  Uavg = 6.24838e-05 m/s   DP = 1.03468 Pa
+
+
+
+max(div(phi)) [0 0 -1 0 0 0 0] 0.00208797
+Grainwalls 0.001 - 
+Grainwalls 0.00109109 - 
+Bottom 0.001 - 
+Bottom 0.00112839 - 
+Top 0.001 - 
+Top 0.00108539 - 
+Back 0.001 - 
+Back 0.00112003 - 
+Front 0.001 - 
+Front 0.00109187 - 
+GAMGPCG:  Solving for p, Initial residual = 0.000968659, Final residual = 4.26745e-06, No Iterations 3
+
+         Umax = 0.000607225 m/s  Uavg = 6.22717e-05 m/s   DP = 1.03216 Pa
+
+
+Grainwalls 0.001 - 
+Grainwalls 0.0010901 - 
+Bottom 0.001 - 
+Bottom 0.00111072 - 
+Top 0.001 - 
+Top 0.001084 - 
+Back 0.001 - 
+Back 0.0011172 - 
+Front 0.001 - 
+Front 0.00108627 - 
+GAMGPCG:  Solving for p, Initial residual = 0.000746902, Final residual = 2.95248e-06, No Iterations 3
+
+         Umax = 0.000611725 m/s  Uavg = 6.20708e-05 m/s   DP = 1.02989 Pa
+
+
+
+max(div(phi)) [0 0 -1 0 0 0 0] 0.00112264
+End
+
+Finalising parallel run

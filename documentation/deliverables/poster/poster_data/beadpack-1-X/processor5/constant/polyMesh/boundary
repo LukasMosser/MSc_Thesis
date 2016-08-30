@@ -1,0 +1,130 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      binary;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+13
+(
+    Grainwalls
+    {
+        type            patch;
+        nFaces          4522;
+        startFace       26715;
+    }
+    Left
+    {
+        type            patch;
+        nFaces          619;
+        startFace       31237;
+    }
+    Right
+    {
+        type            patch;
+        nFaces          0;
+        startFace       31856;
+    }
+    Bottom
+    {
+        type            patch;
+        nFaces          0;
+        startFace       31856;
+    }
+    Top
+    {
+        type            patch;
+        nFaces          0;
+        startFace       31856;
+    }
+    Back
+    {
+        type            patch;
+        nFaces          337;
+        startFace       31856;
+    }
+    Front
+    {
+        type            patch;
+        nFaces          0;
+        startFace       32193;
+    }
+    procBoundary5to13
+    {
+        type            processor;
+        inGroups        1(processor);
+        nFaces          136;
+        startFace       32193;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        5;
+        neighbProcNo    13;
+    }
+    procBoundary5to15
+    {
+        type            processor;
+        inGroups        1(processor);
+        nFaces          5;
+        startFace       32329;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        5;
+        neighbProcNo    15;
+    }
+    procBoundary5to11
+    {
+        type            processor;
+        inGroups        1(processor);
+        nFaces          219;
+        startFace       32334;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        5;
+        neighbProcNo    11;
+    }
+    procBoundary5to0
+    {
+        type            processor;
+        inGroups        1(processor);
+        nFaces          57;
+        startFace       32553;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        5;
+        neighbProcNo    0;
+    }
+    procBoundary5to1
+    {
+        type            processor;
+        inGroups        1(processor);
+        nFaces          115;
+        startFace       32610;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        5;
+        neighbProcNo    1;
+    }
+    procBoundary5to4
+    {
+        type            processor;
+        inGroups        1(processor);
+        nFaces          56;
+        startFace       32725;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        5;
+        neighbProcNo    4;
+    }
+)
+
+// ************************************************************************* //

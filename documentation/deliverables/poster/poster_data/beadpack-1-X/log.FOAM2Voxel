@@ -1,0 +1,965 @@
+FOAM2Voxel "vxlImage.mhd" 32 "binary"
+Openning header file: vxlImage.mhd
+vxlImage.mhd:
+ ObjectType: 
+ NDims: 
+ ElementType: 
+ DimSize:  Nxyz: 100 100 100   
+ ElementSpacing:  dX: 2  2  2   
+ Offset:  X0: 0  0   0
+ ElementDataFile:  ElementDataFile = vxlImage.raw    
+ :  reading binary file vxlImage.raw
+
+  Error: can not open image file, vxlImage.raw
+
+: 
+ skipping the contents of file vxlImage.mhd after entry "" 
+
+processor: 0========================================
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.3.0-f5222ca19ce6
+Exec   : FOAM2Voxel -case ./processor0
+Date   : Aug 27 2016
+Time   : 17:19:12
+Host   : "ese-tesla3"
+PID    : 21667
+Case   : ./processor0
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000286051 3.70224e-05 0.00017574)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls3018
+Left761
+Right0
+Bottom0
+Top379
+Back0
+Front0
+procBoundary0to557
+procBoundary0to924
+procBoundary0to1509
+procBoundary0to67
+procBoundary0to767
+C.size(): 10451
+V.size(): 10451
+end
+
+processor: 1========================================
+Case   : ./processor1
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000286051 8.8712e-05 0.000176267)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls3963
+Left0
+Right0
+Bottom0
+Top134
+Back0
+Front0
+procBoundary1to111
+procBoundary1to5115
+procBoundary1to0509
+procBoundary1to49
+procBoundary1to2542
+procBoundary1to9145
+procBoundary1to6252
+C.size(): 10370
+V.size(): 10370
+end
+
+processor: 2========================================
+Case   : ./processor2
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000254759 2.06668e-05 0.000118452)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls3504
+Left0
+Right0
+Bottom0
+Top151
+Back0
+Front0
+procBoundary2to3791
+procBoundary2to1542
+procBoundary2to2324
+procBoundary2to94
+procBoundary2to6286
+C.size(): 10837
+V.size(): 10837
+end
+
+processor: 3========================================
+Case   : ./processor3
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.00044241 4.61386e-05 0.000213373)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls3538
+Left0
+Right0
+Bottom0
+Top0
+Back0
+Front0
+procBoundary3to12138
+procBoundary3to11120
+procBoundary3to2791
+procBoundary3to22169
+procBoundary3to96
+procBoundary3to27211
+procBoundary3to181
+procBoundary3to46
+procBoundary3to632
+C.size(): 9985
+V.size(): 9985
+end
+
+processor: 4========================================
+Case   : ./processor4
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000151075 5.98996e-05 0.000131905)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls4913
+Left0
+Right184
+Bottom0
+Top608
+Back110
+Front324
+procBoundary4to556
+procBoundary4to19
+procBoundary4to36
+procBoundary4to27247
+procBoundary4to261
+procBoundary4to75
+procBoundary4to6257
+C.size(): 9963
+V.size(): 9963
+end
+
+processor: 5========================================
+Case   : ./processor5
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000166575 5.85055e-05 2.35138e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls4522
+Left619
+Right0
+Bottom0
+Top0
+Back337
+Front0
+procBoundary5to13136
+procBoundary5to155
+procBoundary5to11219
+procBoundary5to057
+procBoundary5to1115
+procBoundary5to456
+C.size(): 9916
+V.size(): 9916
+end
+
+processor: 6========================================
+Case   : ./processor6
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000151551 2.89732e-05 0.000131905)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls3815
+Left0
+Right0
+Bottom0
+Top227
+Back0
+Front0
+procBoundary6to1252
+procBoundary6to7556
+procBoundary6to07
+procBoundary6to2286
+procBoundary6to332
+procBoundary6to4257
+C.size(): 10631
+V.size(): 10631
+end
+
+processor: 7========================================
+Case   : ./processor7
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000176222 7.6662e-05 6.81103e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls3254
+Left45
+Right0
+Bottom0
+Top540
+Back0
+Front752
+procBoundary7to6556
+procBoundary7to10167
+procBoundary7to067
+procBoundary7to45
+C.size(): 10726
+V.size(): 10726
+end
+
+processor: 8========================================
+Case   : ./processor8
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000332706 5.41788e-05 0.000282662)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls3646
+Left11
+Right0
+Bottom0
+Top0
+Back0
+Front0
+procBoundary8to15138
+procBoundary8to13133
+procBoundary8to29187
+procBoundary8to9796
+procBoundary8to12164
+procBoundary8to307
+C.size(): 9810
+V.size(): 9810
+end
+
+processor: 9========================================
+Case   : ./processor9
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000341133 9.58157e-05 6.51816e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls4377
+Left414
+Right0
+Bottom0
+Top0
+Back0
+Front0
+procBoundary9to024
+procBoundary9to8796
+procBoundary9to10183
+procBoundary9to1145
+procBoundary9to129
+procBoundary9to36
+procBoundary9to24
+C.size(): 9811
+V.size(): 9811
+end
+
+processor: 10========================================
+Case   : ./processor10
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000217401 9.29466e-05 3.70277e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls4804
+Left61
+Right0
+Bottom0
+Top0
+Back134
+Front493
+procBoundary10to11575
+procBoundary10to202
+procBoundary10to1398
+procBoundary10to12146
+procBoundary10to154
+procBoundary10to18115
+procBoundary10to9183
+procBoundary10to298
+procBoundary10to7167
+C.size(): 10611
+V.size(): 10611
+end
+
+processor: 11========================================
+Case   : ./processor11
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000315221 0.000121814 5.59856e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls4660
+Left0
+Right0
+Bottom0
+Top0
+Back232
+Front0
+procBoundary11to10575
+procBoundary11to5219
+procBoundary11to1314
+procBoundary11to11
+procBoundary11to3120
+procBoundary11to211
+procBoundary11to20100
+C.size(): 10800
+V.size(): 10800
+end
+
+processor: 12========================================
+Case   : ./processor12
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000271127 0.000100095 0.000193733)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls4572
+Left144
+Right0
+Bottom246
+Top0
+Back155
+Front0
+procBoundary12to13185
+procBoundary12to14174
+procBoundary12to15101
+procBoundary12to19131
+procBoundary12to10146
+procBoundary12to3138
+procBoundary12to30181
+procBoundary12to8164
+procBoundary12to99
+C.size(): 9989
+V.size(): 9989
+end
+
+processor: 13========================================
+Case   : ./processor13
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000217401 9.29466e-05 0.0001582)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls4990
+Left229
+Right0
+Bottom39
+Top0
+Back276
+Front0
+procBoundary13to12185
+procBoundary13to15199
+procBoundary13to14175
+procBoundary13to5136
+procBoundary13to1098
+procBoundary13to1114
+procBoundary13to8133
+procBoundary13to16228
+C.size(): 9811
+V.size(): 9811
+end
+
+processor: 14========================================
+Case   : ./processor14
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000257414 3.2676e-05 3.56564e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls3445
+Left457
+Right0
+Bottom346
+Top0
+Back0
+Front0
+procBoundary14to13175
+procBoundary14to15626
+procBoundary14to12174
+procBoundary14to1967
+C.size(): 10826
+V.size(): 10826
+end
+
+processor: 15========================================
+Case   : ./processor15
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000271127 0.000100095 6.93757e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls4123
+Left272
+Right0
+Bottom0
+Top0
+Back0
+Front0
+procBoundary15to13199
+procBoundary15to14626
+procBoundary15to12101
+procBoundary15to55
+procBoundary15to8138
+procBoundary15to104
+C.size(): 10813
+V.size(): 10813
+end
+
+processor: 16========================================
+Case   : ./processor16
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000221481 0.000261901 0.000154533)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls4579
+Left76
+Right136
+Bottom474
+Top0
+Back129
+Front208
+procBoundary16to13228
+procBoundary16to29197
+procBoundary16to18117
+procBoundary16to20134
+procBoundary16to17186
+procBoundary16to312
+C.size(): 9910
+V.size(): 9910
+end
+
+processor: 17========================================
+Case   : ./processor17
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.0001685 7.58315e-05 4.75341e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls4103
+Left0
+Right799
+Bottom41
+Top0
+Back0
+Front0
+procBoundary17to18147
+procBoundary17to2285
+procBoundary17to16186
+procBoundary17to2016
+procBoundary17to24185
+C.size(): 9851
+V.size(): 9851
+end
+
+processor: 18========================================
+Case   : ./processor18
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.0001685 7.58315e-05 2.60263e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls5325
+Left0
+Right0
+Bottom417
+Top0
+Back241
+Front0
+procBoundary18to19767
+procBoundary18to17147
+procBoundary18to16117
+procBoundary18to10115
+procBoundary18to31
+C.size(): 10691
+V.size(): 10691
+end
+
+processor: 19========================================
+Case   : ./processor19
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000243992 4.83963e-05 6.64911e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls2958
+Left0
+Right0
+Bottom612
+Top0
+Back0
+Front0
+procBoundary19to12131
+procBoundary19to1467
+procBoundary19to18767
+procBoundary19to31273
+procBoundary19to302
+C.size(): 10575
+V.size(): 10575
+end
+
+processor: 20========================================
+Case   : ./processor20
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000315221 0.000121814 5.19593e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls3142
+Left0
+Right311
+Bottom0
+Top0
+Back69
+Front0
+procBoundary20to16134
+procBoundary20to1716
+procBoundary20to22290
+procBoundary20to21894
+procBoundary20to11100
+procBoundary20to102
+C.size(): 10199
+V.size(): 10199
+end
+
+processor: 21========================================
+Case   : ./processor21
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000211619 4.88758e-05 1.22529e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls1961
+Left0
+Right372
+Bottom0
+Top0
+Back303
+Front0
+procBoundary21to111
+procBoundary21to20894
+procBoundary21to22447
+procBoundary21to23428
+C.size(): 10168
+V.size(): 10168
+end
+
+processor: 22========================================
+Case   : ./processor22
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000442746 5.02422e-05 2.74466e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls3072
+Left0
+Right553
+Bottom0
+Top0
+Back0
+Front0
+procBoundary22to20290
+procBoundary22to1785
+procBoundary22to21447
+procBoundary22to3169
+procBoundary22to23370
+procBoundary22to27198
+C.size(): 10650
+V.size(): 10650
+end
+
+processor: 23========================================
+Case   : ./processor23
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (9.73097e-05 4.16659e-05 4.21501e-06)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls2673
+Left0
+Right457
+Bottom0
+Top714
+Back36
+Front0
+procBoundary23to21428
+procBoundary23to22370
+procBoundary23to224
+C.size(): 10421
+V.size(): 10421
+end
+
+processor: 24========================================
+Case   : ./processor24
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000384996 4.60615e-05 5.80771e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls2707
+Left0
+Right210
+Bottom0
+Top0
+Back0
+Front0
+procBoundary24to25669
+procBoundary24to30481
+procBoundary24to28116
+procBoundary24to26446
+procBoundary24to17185
+C.size(): 10024
+V.size(): 10024
+end
+
+processor: 25========================================
+Case   : ./processor25
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000391168 4.97869e-05 8.82784e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls1375
+Left0
+Right296
+Bottom0
+Top0
+Back0
+Front470
+procBoundary25to24669
+procBoundary25to28430
+procBoundary25to3063
+procBoundary25to26610
+procBoundary25to2737
+C.size(): 10491
+V.size(): 10491
+end
+
+processor: 26========================================
+Case   : ./processor26
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000113815 4.88156e-05 7.60134e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls2310
+Left0
+Right0
+Bottom0
+Top0
+Back0
+Front277
+procBoundary26to27614
+procBoundary26to41
+procBoundary26to30205
+procBoundary26to24446
+procBoundary26to25610
+procBoundary26to28199
+C.size(): 9842
+V.size(): 9842
+end
+
+processor: 27========================================
+Case   : ./processor27
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000269666 7.30927e-05 0.000210223)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls4426
+Left0
+Right175
+Bottom0
+Top0
+Back0
+Front0
+procBoundary27to22198
+procBoundary27to26614
+procBoundary27to2537
+procBoundary27to4247
+procBoundary27to3211
+C.size(): 10714
+V.size(): 10714
+end
+
+processor: 28========================================
+Case   : ./processor28
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000198225 5.42249e-05 1.85011e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls2002
+Left0
+Right30
+Bottom207
+Top0
+Back0
+Front553
+procBoundary28to31434
+procBoundary28to30354
+procBoundary28to29285
+procBoundary28to25430
+procBoundary28to24116
+procBoundary28to26199
+C.size(): 10237
+V.size(): 10237
+end
+
+processor: 29========================================
+Case   : ./processor29
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000346359 0.000278614 0.000293914)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls3226
+Left0
+Right0
+Bottom0
+Top0
+Back0
+Front526
+procBoundary29to16197
+procBoundary29to31154
+procBoundary29to30241
+procBoundary29to28285
+procBoundary29to8187
+procBoundary29to108
+C.size(): 10552
+V.size(): 10552
+end
+
+processor: 30========================================
+Case   : ./processor30
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000224434 5.42249e-05 0.00018589)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls2191
+Left0
+Right0
+Bottom0
+Top0
+Back0
+Front0
+procBoundary30to31677
+procBoundary30to29241
+procBoundary30to28354
+procBoundary30to24481
+procBoundary30to2563
+procBoundary30to12181
+procBoundary30to87
+procBoundary30to192
+procBoundary30to26205
+C.size(): 10199
+V.size(): 10199
+end
+
+processor: 31========================================
+Case   : ./processor31
+nProcs : 1
+Create time
+
+Create mesh for time = 0
+
+
+maxU max(U) [0 1 -1 0 0 0 0] (0.000184881 3.91255e-05 6.69462e-05)
+Reading/calculating face flux field phi
+
+faceVelocitiesWithBC
+Grainwalls3043
+Left0
+Right0
+Bottom363
+Top0
+Back0
+Front0
+procBoundary31to30677
+procBoundary31to29154
+procBoundary31to162
+procBoundary31to28434
+procBoundary31to19273
+C.size(): 10496
+V.size(): 10496
+end
+ writting binary file ./Ufx.raw;  i: 0 100,  j: 0 99,  k: 0 99.   writting binary file ./Ufy.raw;  i: 0 99,  j: 0 100,  k: 0 99.   writting binary file ./Ufz.raw;  i: 0 99,  j: 0 99,  k: 0 100.   writting binary file ./p.raw;  i: 0 99,  j: 0 99,  k: 0 99.   writting binary file ./vxlImage.raw;  i: 0 99,  j: 0 99,  k: 0 99.  end
+calculating image porosity:
+ total porosity: 330370/(100*100*100) = 0.33037

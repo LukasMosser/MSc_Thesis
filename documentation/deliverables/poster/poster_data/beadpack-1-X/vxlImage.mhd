@@ -1,0 +1,11 @@
+ObjectType =  Image
+NDims =       3
+ElementType = MET_UCHAR
+
+DimSize =        100 100 100
+ElementSpacing = 2   2   2
+Offset =         0   0   0
+
+ElementDataFile = vxlImage.raw
+
+
